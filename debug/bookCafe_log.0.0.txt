@@ -1,0 +1,50 @@
+lug 10, 2024 12:10:52 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 10, 2024 12:10:52 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 10, 2024 12:10:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 10, 2024 12:11:10 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logon
+lug 10, 2024 12:11:10 AM com.ma.isw.bookcafe.controller.HomeManagement logon
+SEVERE: Controller Error
+java.lang.RuntimeException: java.lang.ClassNotFoundException: org.postgresql.Driver
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.PSQLJDBCDAOFactory.beginTransaction(PSQLJDBCDAOFactory.java:30)
+	at com.ma.isw.bookcafe.controller.HomeManagement.logon(HomeManagement.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:77)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1353)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1165)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.PSQLJDBCDAOFactory.beginTransaction(PSQLJDBCDAOFactory.java:26)
+	... 29 more
+
