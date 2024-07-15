@@ -1,17 +1,9 @@
 <meta charset="utf-8"/>
+<%
+    String contextPath = request.getContextPath();
+    long timestamp = System.currentTimeMillis();
+%>
 
-<!-- Linking styles -->
-<link rel="stylesheet" href="css/addressbook.css" type="text/css" media="screen">
-<title>Rubrica: <%=menuActiveLink%></title>
-<script>
-  var applicationMessage;
-  <%if (applicationMessage != null) {%>
-    applicationMessage="<%=applicationMessage%>";
-  <%}%>
-  function onLoadHandler() {
-    headerOnLoadHandler();
-    try { mainOnLoadHandler(); } catch (e) {}
-    if (applicationMessage!=undefined) alert(applicationMessage);
-  }
-  window.addEventListener("load", onLoadHandler);
-</script>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" href="<%= contextPath %>/css/style.css?v=<%= timestamp %>" type="text/css" media="screen">
+<title> BookCafe; - <%=menuActiveLink%> </title>

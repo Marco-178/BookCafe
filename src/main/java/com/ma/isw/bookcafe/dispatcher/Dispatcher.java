@@ -27,19 +27,18 @@ public class Dispatcher extends HttpServlet {
             if (controllerAction==null) controllerAction="HomeManagement.view";
 
             String[] splittedAction=controllerAction.split("\\.");
-            Class<?> controllerClass=Class.forName("com.ma.isw.bookcafe.controller."+splittedAction[0]);
-            Method controllerMethod=controllerClass.getMethod(splittedAction[1],HttpServletRequest.class,HttpServletResponse.class);
+            Class<?> controllerClass=Class.forName("com.ma.isw.bookcafe.controller." + splittedAction[0]);
+            Method controllerMethod=controllerClass.getMethod(splittedAction[1], HttpServletRequest.class, HttpServletResponse.class);
             LogService.getApplicationLogger().log(Level.INFO,splittedAction[0]+" "+splittedAction[1]);
             controllerMethod.invoke(null,request,response);
 
             String viewUrl=(String)request.getAttribute("viewUrl");
             RequestDispatcher view=request.getRequestDispatcher("jsp/"+viewUrl+".jsp");
-            view.forward(request,response);
-
+            view.forward(request,response); // inoltra richiesta e risposta al jsp per la visualizzazione finale della pagina
 
         } catch (Exception e) {
             e.printStackTrace(out);
-            throw new ServerException("Dispacther Servlet Error",e);
+            throw new ServerException("Dispatcher Servlet Error",e);
 
         } finally {
             out.close();

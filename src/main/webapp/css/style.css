@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Light.woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Semibold.woff");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Black.woff");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Italic.woff");
+    font-weight: 600;
+}
+
+:root{
+    font-size: 16px;
+    font-family: 'Switzer', monospace;
+    --text-primary: black;
+    --text-secondary: black;
+    --bg-primary: #ece4d0;/*#e3dbc8*/
+    --bg-secondary: #767F63;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap, 1rem);
+    background-color: var(--bg-primary);
+    border-top: 1px solid;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.nav-item {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.nav-item.right {
+    margin-left: auto;
+}
+
+body::-webkit-scrollbar{ /* non funziona per Firefox, Edge*/
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: var(--bg-primary);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #b08009;
+}
+
+main {
+    margin-top: 0.5rem;
+    background-color: var(--bg-primary);
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+header {
+    background: #d7c2aa;/*stesso dello sfondo originale del logo non croppato*/
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    padding-left: 14px;
+    width: 125px;
+    height: 125px;
+}
+
+.logo-text{
+    height: 75px;
+}
+
+.flex{
+    display: flex;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.red {
+
+}
+
+footer {
+    text-align:right;
+    font-size:11px;
+    background-color: #767F63;
+    border: 3px solid #000;
+}
+
+.privacy{
+    background-color: #767F63;
+}
+
+/*
+.container{
+    max-width: 1340px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body{
+    width: auto;
+}
+*/
+
+.container{
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1536px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 640px;
+    }
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo-text{
+        height: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container{
+        max-width: 475px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-text{
+        height: 60px;
+    }
+}
+
+@media (max-width: 475px) {
+    .container{
+        width: 100%;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-text{
+        height: 50px;
+    }
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 600px;
+        font-size:8px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .container{
+        min-width: 600px;
+        font-size:10px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container{
+        min-width: 768px;
+        font-size:12px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container{
+        min-width: 992px;
+        font-size:14px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        min-width: 1200px;
+    }
+}
+*/
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

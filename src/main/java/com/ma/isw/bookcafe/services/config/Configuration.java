@@ -12,7 +12,7 @@ public class Configuration {
     public static final String DATABASE_DRIVER="org.postgresql.Driver";
     public static final String SERVER_TIMEZONE=Calendar.getInstance().getTimeZone().getID();
     public static final String
-            DATABASE_URL="jdbc:postgresql://localhost:5432/bookCafeDB?user=root&password=Cretino021234ì&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone="+SERVER_TIMEZONE;
+            DATABASE_URL="jdbc:postgresql://localhost:5432/bookCafeDB?user=postgres&password=Cretino021234ì&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone="+SERVER_TIMEZONE;
 
     /* Session Configuration */
     public static final String COOKIE_IMPL=DAOFactory.COOKIEIMPL;
