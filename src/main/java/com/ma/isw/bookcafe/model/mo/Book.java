@@ -12,6 +12,7 @@ public class Book {
     private double bookPrice;
     private double ebookPrice;
     private int monthlyClicks;
+    private String urlBookcoverImage;
     private boolean deleted;
 
     // Getters and Setters
@@ -110,5 +111,9 @@ public class Book {
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
     }
+
+    public String getUrlBookcoverImage() {return urlBookcoverImage;}
+
+    public void setUrlBookcoverImage(String urlBookcoverImage){this.urlBookcoverImage = urlBookcoverImage;}
 }
 

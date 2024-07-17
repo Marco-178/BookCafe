@@ -1,0 +1,52 @@
+h1{font-weight: bolder; text-align: center}
+h2{font-weight: bold}
+
+.login-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 3%;
+}
+
+.login-card {
+    background-color: #f3ead6;
+    padding: 1rem;
+    border: 3px solid black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    flex: 1 1 100%; /* Di default, gli elementi prendono l'intera larghezza */
+    align-items: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.box{
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    padding-left: 5px;
+    padding-right: 35px;
+}
+
+input:focus{
+    border-color: #767F63
+}
+
+.submit{
+    display: block;
+    padding: 0 30px;
+    margin-left: auto;
+    color: #000;
+    background: #acb990; /* acb990 a1ad86*/
+    font-weight: bold;
+    border-radius: 6px;
+    height: 50px;
+}

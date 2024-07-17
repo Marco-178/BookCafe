@@ -12,20 +12,32 @@
 
 @font-face {
     font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Bold.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-BoldItalic.woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("../assets/fonts/Switzer-Extrabold.woff");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Switzer";
     src: url("../assets/fonts/Switzer-Semibold.woff");
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Switzer";
-    src: url("../assets/fonts/Switzer-Black.woff");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Switzer";
     src: url("../assets/fonts/Switzer-Italic.woff");
-    font-weight: 600;
+    font-style: italic;
 }
 
 :root{
@@ -34,7 +46,47 @@
     --text-primary: black;
     --text-secondary: black;
     --bg-primary: #ece4d0;/*#e3dbc8*/
-    --bg-secondary: #767F63;
+    --bg-secondary: #ededef; /* #767F63*/
+    --page-width: 1340px;
+}
+
+body{
+    background: var(--bg-secondary)
+}
+
+body::-webkit-scrollbar{ /* non funziona per Firefox, Edge*/
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: var(--bg-primary);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #b08009;
+}
+
+/*.page-template{
+    max-width: var(--page-width);
+    margin: 0 auto;
+    background: var(--bg-secondary);
+}*/
+
+.logo {
+    padding-left: 20px;
+    margin-left: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+.logo-text{
+    height: 75px;
+}
+
+header {
+    background: #d7c2aa;/*stesso dello sfondo originale del logo non croppato*/
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
 }
 
 .navbar {
@@ -56,25 +108,33 @@
     margin-left: auto;
 }
 
-body::-webkit-scrollbar{ /* non funziona per Firefox, Edge*/
-    width: 0.25rem;
+a:link, a:active, a:visited {
+    text-decoration: none;
 }
 
-body::-webkit-scrollbar-track{
-    background: var(--bg-primary);
+.flex{
+    display: flex;
 }
 
-body::-webkit-scrollbar-thumb{
-    background: #b08009;
+.red {
+
 }
 
 main {
-    margin-top: 0.5rem;
+    /*margin-top: 0.5rem;*/
     background-color: var(--bg-primary);
 }
 
-a:link, a:active, a:visited {
-    text-decoration: none;
+.container{
+    max-width: var(--page-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3%;
 }
 
 .clearfix:after {
@@ -85,32 +145,8 @@ a:link, a:active, a:visited {
     clear: both;
 }
 
-header {
-    background: #d7c2aa;/*stesso dello sfondo originale del logo non croppato*/
-    padding-top: 10px;
-    border-bottom: 1px solid #000;
-}
-
-.logo {
-    padding-left: 14px;
-    width: 125px;
-    height: 125px;
-}
-
-.logo-text{
-    height: 75px;
-}
-
-.flex{
-    display: flex;
-}
-
 .inline-block{
     display: inline-block;
-}
-
-.red {
-
 }
 
 footer {
@@ -124,45 +160,33 @@ footer {
     background-color: #767F63;
 }
 
-/*
-.container{
-    max-width: 1340px;
-    width: 90%;
-    margin: 0 auto;
-}
-
-body{
-    width: auto;
-}
-*/
-
-.container{
-    max-width: 1340px;
-    margin-left: auto;
-    margin-right: auto;
+@media (min-width: 1537px){
+    :root{
+        --page-width: 1340px;
+    }
 }
 
 @media (max-width: 1536px) {
-    .container{
-        max-width: 1280px;
+    :root{
+        --page-width: 1280px;
     }
 }
 
 @media (max-width: 1280px) {
-    .container{
-        max-width: 1024px;
+    :root{
+        --page-width: 1024px;
     }
 }
 
 @media (max-width: 1024px) {
-    .container{
-        max-width: 768px;
+    :root{
+        --page-width: 768px;
     }
 }
 
 @media (max-width: 768px) {
-    .container{
-        max-width: 640px;
+    :root{
+        --page-width: 640px;
     }
     .logo {
         width: 75px;
@@ -175,8 +199,8 @@ body{
 }
 
 @media (max-width: 640px) {
-    .container{
-        max-width: 475px;
+    :root{
+        --page-width: 475px;
     }
     .logo {
         width: 60px;
@@ -201,48 +225,3 @@ body{
         height: 50px;
     }
 }
-
-/*
-@media only screen and (max-width: 600px) {
-    .container{
-        max-width: 600px;
-        font-size:8px;
-    }
-}
-
-
-@media only screen and (min-width: 600px) {
-    .container{
-        min-width: 600px;
-        font-size:10px;
-    }
-}
-
-
-@media only screen and (min-width: 768px) {
-    .container{
-        min-width: 768px;
-        font-size:12px;
-    }
-}
-
-
-@media only screen and (min-width: 992px) {
-    .container{
-        min-width: 992px;
-        font-size:14px;
-    }
-}
-
-
-@media only screen and (min-width: 1200px) {
-    .container{
-        min-width: 1200px;
-    }
-}
-*/
-/* Extra small devices (phones, 600px and down) */
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* Medium devices (landscape tablets, 768px and up) */
-/* Large devices (laptops/desktops, 992px and up) */
-/* Extra large devices (large laptops and desktops, 1200px and up) */

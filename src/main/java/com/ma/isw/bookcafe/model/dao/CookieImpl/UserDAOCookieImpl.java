@@ -7,6 +7,9 @@ import jakarta.servlet.http.HttpServletResponse;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
 import com.ma.isw.bookcafe.model.mo.User;
 
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -44,13 +47,24 @@ public class UserDAOCookieImpl implements UserDAO {
         loggedUser.setSubscriptionDate(subscriptionDate);
         loggedUser.setUserType(userType);
 
+        String encodedUser = encode(loggedUser);
+        String sanitizedEncodedUser = sanitizeCookieValue(encodedUser);
+
         Cookie cookie;
-        cookie = new Cookie("loggedUser", encode(loggedUser));
+        cookie = new Cookie("loggedUser", sanitizedEncodedUser);
         cookie.setPath("/");
         response.addCookie(cookie);
 
         return loggedUser;
 
+    }
+
+    private String sanitizeCookieValue(String value) {
+        return URLEncoder.encode(value, StandardCharsets.UTF_8);
+    }
+
+    private String desanitizeCookieValue(String value) {
+        return URLDecoder.decode(value, StandardCharsets.UTF_8);
     }
 
     @Override
@@ -83,7 +97,8 @@ public class UserDAOCookieImpl implements UserDAO {
         if (cookies != null) {
             for (int i = 0; i < cookies.length && loggedUser == null; i++) {
                 if (cookies[i].getName().equals("loggedUser")) {
-                    loggedUser = decode(cookies[i].getValue());
+                    String desanitizedValue = desanitizeCookieValue(cookies[i].getValue());
+                    loggedUser = decode(desanitizedValue);
                 }
             }
         }
@@ -110,7 +125,20 @@ public class UserDAOCookieImpl implements UserDAO {
     private String encode(User loggedUser) {
 
         String encodedLoggedUser;
-        encodedLoggedUser = loggedUser.getUserId() + "#" + loggedUser.getUsername() + "#" + loggedUser.getUserType();
+        encodedLoggedUser = loggedUser.getUserId() + "#"
+                            + loggedUser.getUsername() + "#"
+                            + loggedUser.getEmail() + "#"
+                            + loggedUser.getPassword() + "#"
+                            + loggedUser.getSubscriptionDate() + "#"
+                            + loggedUser.getBirthDate() + "#"
+                            + loggedUser.getNation() + "#"
+                            + loggedUser.getCity() + "#"
+                            + loggedUser.getUrlProfilePicture() + "#"
+                            + loggedUser.getLastAccess() + "#"
+                            + loggedUser.isBanned() + "#"
+                            + loggedUser.getUserType() + "#"
+                            + loggedUser.getBiography()+ "#"
+                            + loggedUser.isDeleted();
         return encodedLoggedUser;
 
     }
@@ -123,7 +151,31 @@ public class UserDAOCookieImpl implements UserDAO {
 
         loggedUser.setUserId(Integer.parseInt(values[0]));
         loggedUser.setUsername(values[1]);
-        loggedUser.setUserType(values[2]);
+        loggedUser.setEmail(values[2]);
+        loggedUser.setPassword(values[3]);
+        if (!"null".equals(values[4])) {
+            loggedUser.setSubscriptionDate(LocalDate.parse(values[4]));
+        } else {
+            loggedUser.setSubscriptionDate(null); // Or handle default value as per your logic
+        }
+        if (!"null".equals(values[5])) {
+            loggedUser.setBirthDate(LocalDate.parse(values[5]));
+        } else {
+            loggedUser.setBirthDate(null); // Or handle default value as per your logic
+        }
+        loggedUser.setNation(values[6]);
+        loggedUser.setCity(values[7]);
+        loggedUser.setUrlProfilePicture(values[8]);
+        if (!"null".equals(values[9])) {
+            loggedUser.setLastAccess(LocalDateTime.parse(values[9]));
+        } else {
+            loggedUser.setLastAccess(null); // Or handle default value as per your logic
+        }
+        loggedUser.setBanned(Boolean.parseBoolean(values[10]));
+        loggedUser.setUserType(values[11]);
+        loggedUser.setBiography(values[12]);
+        loggedUser.setDeleted(Boolean.parseBoolean(values[13]));
+
 
         return loggedUser;
 

@@ -1,14 +1,13 @@
 package com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 import java.util.List;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
+import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
 
@@ -21,10 +20,68 @@ public class UserDAOPSQLJDBCImpl implements UserDAO{
         this.conn = conn;
     }
 
-    // TODO per registrazione
     @Override
-    public User addUser(Integer userId, String username, String email, String password, LocalDate subscriptionDate, LocalDate birthDate, String nation, String city, String urlProfilePicture, LocalDateTime lastAccess, Boolean banned, String userType, String biography) {
-        throw new UnsupportedOperationException("Not supported.");
+    public User addUser(Integer userId, String username, String email, String password, LocalDate subscriptionDate, LocalDate birthDate, String nation, String city, String urlProfilePicture, LocalDateTime lastAccess, Boolean banned, String userType, String biography) throws DuplicatedUsernameException, InvalidBirthdateException {
+        User user = new User();
+        user.setUsername(username);
+        user.setEmail(email);
+        user.setPassword(password);
+        user.setSubscriptionDate(subscriptionDate);
+        user.setBirthDate(birthDate);
+        user.setNation(nation);
+        user.setCity(city);
+        user.setUrlProfilePicture(urlProfilePicture);
+        user.setLastAccess(lastAccess);
+        user.setBanned(banned);
+        user.setUserType(userType);
+        user.setBiography(biography);
+
+        PreparedStatement ps = null;
+
+        try{
+            String sql = "INSERT INTO users "
+                    + "(username, email, password, subscription_date, birth_date, nation, city, "
+                    + " url_profile_picture, last_access, banned, user_type, biography, deleted) "
+                    + "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+                    + "RETURNING user_id"; // siccome il DB usa ID auto-incrementali devo poi usare getGeneratedKeys() per recuperarlo e metterlo nell'oggetto user restituito
+
+            ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS); // per il RETURNING
+            int i = 1;
+            ps.setString(i++, user.getUsername());
+            ps.setString(i++, user.getEmail());
+            ps.setString(i++, user.getPassword());
+            ps.setDate(i++, java.sql.Date.valueOf(user.getSubscriptionDate()));
+            ps.setDate(i++, java.sql.Date.valueOf(user.getBirthDate()));
+            ps.setString(i++, user.getNation());
+            ps.setString(i++, user.getCity());
+            ps.setString(i++, user.getUrlProfilePicture());
+            ps.setTimestamp(i++, java.sql.Timestamp.valueOf(user.getLastAccess()));
+            ps.setBoolean(i++, user.isBanned());
+            ps.setString(i++, user.getUserType());
+            ps.setString(i++, user.getBiography());
+            ps.setBoolean(i++, user.isDeleted());
+
+            int affectedRows = ps.executeUpdate();
+
+            if (affectedRows > 0) {
+                try (ResultSet rs = ps.getGeneratedKeys()) {
+                    if (rs.next()) {
+                        int loggedUserId = rs.getInt(1);
+                        user.setUserId(loggedUserId);
+                    }
+                }
+            }
+        }
+        catch(SQLException e){
+            if (e.getMessage().contains("\"users_username_key\"")) {
+                throw new DuplicatedUsernameException("Username already exists.", e);
+            } else if (e.getMessage().contains("users_birth_date_check")) {
+                throw new InvalidBirthdateException("Errore: Violazione del vincolo users_birth_date_check", e);
+            }
+            else throw new RuntimeException("Errore durante l'inserimento dell'utente nel database", e);
+        }
+
+        return user;
     }
 
     // TODO Per modificare dettagli profilo utente

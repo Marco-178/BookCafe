@@ -5,7 +5,18 @@ import java.util.List;
 
 public interface BookDAO {
 
-    public void addBook(String ISBN, String title, String author, String genre, int publicationYear, int yearEdition, String description, int numPages, double bookPrice, double ebookPrice, int monthlyClicks);
+    public void addBook(String ISBN,
+                        String title,
+                        String author,
+                        String genre,
+                        int publicationYear,
+                        int yearEdition,
+                        String description,
+                        int numPages,
+                        double bookPrice,
+                        double ebookPrice,
+                        int monthlyClicks,
+                        String urlBookcoverImage);
 
     public void updateBook(Book book);
 

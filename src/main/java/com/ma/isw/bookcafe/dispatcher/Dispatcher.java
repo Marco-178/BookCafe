@@ -34,6 +34,7 @@ public class Dispatcher extends HttpServlet {
 
             String viewUrl=(String)request.getAttribute("viewUrl");
             RequestDispatcher view=request.getRequestDispatcher("jsp/"+viewUrl+".jsp");
+            request.setAttribute("loggedOn",false);
             view.forward(request,response); // inoltra richiesta e risposta al jsp per la visualizzazione finale della pagina
 
         } catch (Exception e) {

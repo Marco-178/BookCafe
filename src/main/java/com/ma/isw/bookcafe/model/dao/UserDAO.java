@@ -1,5 +1,7 @@
 package com.ma.isw.bookcafe.model.dao;
 
+import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
+import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
 import com.ma.isw.bookcafe.model.mo.User;
 import java.util.List;
 import java.time.LocalDate;
@@ -21,7 +23,7 @@ public interface UserDAO {
             Boolean banned,
             String userType,
             String biography
-    );
+    ) throws DuplicatedUsernameException, InvalidBirthdateException;
 
     public void updateUser(User user);
 

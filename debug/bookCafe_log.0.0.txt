@@ -1195,3 +1195,2520 @@ lug 15, 2024 8:35:58 AM com.ma.isw.bookcafe.services.logservice.LogService getAp
 CONFIG: Logger: bookCafe created.
 lug 15, 2024 8:35:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
 INFO: HomeManagement view
+lug 15, 2024 8:43:24 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:43:24 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:44:59 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 8:50:31 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:50:31 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:51:25 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 8:53:54 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:53:54 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:53:56 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:01:24 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:01:24 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:01:45 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:03:49 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:03:49 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:04:36 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:12:59 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:12:59 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:13:01 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:14:46 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:14:46 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:14:48 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:18:11 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:18:11 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:18:13 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:19:03 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:19:03 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:19:06 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 9:21:58 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:21:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:22:03 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 11:03:55 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:03:55 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:04:00 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 11:04:04 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:04:15 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 11:04:25 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:04:28 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 11:05:20 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:05:20 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:08:44 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:08:44 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:23:09 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 11:36:17 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:36:17 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:34:46 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:34:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:36:55 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:36:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:40:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:40:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:41:34 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:41:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:42:10 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:42:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:42:42 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:42:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:43:53 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:43:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:44:43 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:44:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:45:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:45:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:49:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 12:50:57 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:50:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:51:41 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:51:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:52:34 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:52:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:55:28 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:55:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:56:50 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:56:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:57:36 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:57:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:58:34 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:58:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 12:59:36 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 12:59:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:01:15 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:01:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:01:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 1:04:23 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:04:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:05:46 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:05:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:06:51 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:06:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:07:46 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:07:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:10:56 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:10:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:11:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 1:12:18 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:12:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:12:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 1:14:56 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:14:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:15:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 1:29:16 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:29:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:31:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 1:35:50 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 1:35:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 1:36:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 2:00:42 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 2:00:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 2:00:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 2:02:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 2:02:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 2:02:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:13:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 3:13:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:32:20 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:32:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:32:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:33:27 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:33:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:33:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:34:38 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:34:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:34:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:36:38 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:36:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:36:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:37:13 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:37:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:37:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:38:15 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:38:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:39:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:49:34 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:49:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:49:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:54:14 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:54:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:54:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 3:56:41 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 3:56:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 3:56:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:00:10 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:00:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:01:35 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:01:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:01:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:03:04 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:03:04 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:03:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:04:17 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:04:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:04:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:05:30 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:05:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:05:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:08:38 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:08:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:08:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:11:01 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:11:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:11:04 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:12:17 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:12:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:12:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:13:59 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:13:59 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:23:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:24:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 4:24:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 4:25:39 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:25:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:25:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 4:25:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:25:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 4:29:56 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:29:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:30:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 4:30:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:30:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 4:31:03 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:31:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:32:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 4:32:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:32:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 4:32:53 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:32:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:32:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 4:32:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:33:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 15, 2024 4:34:05 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:34:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:35:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 15, 2024 4:35:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:36:45 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:36:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:36:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:42:26 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:42:26 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:42:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:44:52 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:44:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:44:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:46:13 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:46:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:46:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:48:36 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:48:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:48:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:49:23 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:49:24 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:50:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:51:32 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:51:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:51:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 4:54:20 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 4:54:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 4:54:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:02:27 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:02:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:02:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:03:12 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:03:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:03:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:06:03 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:06:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:06:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:06:47 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:06:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:06:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:19:06 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:19:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:19:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:21:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:21:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:21:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:35:23 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:35:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:35:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:41:29 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:41:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:41:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:45:57 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 5:45:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 5:46:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:46:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 5:46:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:12:15 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:12:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:12:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:13:48 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:13:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:13:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:13:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:16:22 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:16:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:16:24 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:17:23 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:17:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:17:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:17:56 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:17:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:18:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:19:37 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:19:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:19:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:20:19 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:20:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:20:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:21:12 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:21:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:21:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:24:33 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:24:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:24:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:26:06 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:26:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:26:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:26:39 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:26:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:27:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:29:21 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:29:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:29:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:30:34 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:30:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:30:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:31:15 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:31:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:31:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:32:39 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:32:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:32:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:33:25 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:33:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:33:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 6:34:08 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:34:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:34:49 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 6:34:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 6:34:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 7:16:24 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:16:24 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:16:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:18:56 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:18:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:19:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 7:19:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:21:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:25:38 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:25:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:25:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:25:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: BookSearch view
+lug 15, 2024 7:26:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:26:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:26:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: BookSearch view
+lug 15, 2024 7:27:41 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:27:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:27:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:27:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: BookSearch view
+lug 15, 2024 7:27:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:28:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: BookSearch view
+lug 15, 2024 7:28:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:29:22 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:29:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:30:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:31:15 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:31:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:31:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 7:31:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 7:32:25 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 7:32:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 7:32:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:18:24 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:18:24 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:18:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:20:53 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:20:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:21:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:22:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:22:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:22:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:24:59 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:24:59 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:25:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:25:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:29:58 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:29:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:30:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:31:51 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:31:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:32:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 8:56:49 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:56:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:57:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 8:57:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 8:58:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 9:04:12 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:04:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:04:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 9:09:34 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:09:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:09:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 9:10:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 9:12:51 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:12:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:16:13 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:16:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:16:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 9:21:22 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:21:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 9:21:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 9:24:58 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 9:24:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:03:13 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:03:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:03:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:05:07 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:05:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:05:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:15:49 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:15:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:16:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 10:16:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:16:45 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:16:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:17:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:18:12 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:18:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:18:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:36:29 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:36:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:37:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:42:03 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:42:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:42:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:47:05 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:47:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:47:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:49:40 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:49:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:50:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:52:05 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:52:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:52:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:53:32 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:53:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:53:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 10:55:23 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 10:55:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 10:55:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:15:33 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:15:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:15:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:16:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:24:37 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:24:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:24:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:25:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 15, 2024 11:25:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:25:40 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:25:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:25:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:27:08 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:27:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:27:26 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:28:09 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:28:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:28:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 15, 2024 11:35:19 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 15, 2024 11:35:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 15, 2024 11:35:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:51:05 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 8:51:05 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 8:51:18 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 16, 2024 8:51:21 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:51:28 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 16, 2024 9:04:25 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 9:04:25 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:05:16 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 16, 2024 9:05:26 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 16, 2024 9:05:29 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:05:32 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 9:05:33 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 9:06:36 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:09:53 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 10:09:37 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 10:09:37 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 10:10:06 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 16, 2024 10:10:11 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 10:13:40 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 3:27:20 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 3:27:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 3:42:52 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 3:42:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 4:14:21 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 4:14:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 4:14:26 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 4:33:50 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 4:33:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 4:34:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 4:36:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 4:36:21 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:244)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 16, 2024 5:13:01 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 5:13:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 5:13:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 5:13:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 5:13:53 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:259)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2007)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:420)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:248)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 16, 2024 5:16:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 5:16:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 5:16:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 5:17:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 5:17:29 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: errore di sintassi a o presso "username"
+  Posizione: 20
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:78)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:243)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: errore di sintassi a o presso "username"
+  Posizione: 20
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:75)
+	... 29 more
+
+lug 16, 2024 5:27:12 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 5:27:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 5:27:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 5:28:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 5:28:10 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: errore di sintassi a o presso "username"
+  Posizione: 23
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:95)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:243)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: errore di sintassi a o presso "username"
+  Posizione: 23
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:92)
+	... 29 more
+
+lug 16, 2024 5:34:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 5:34:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 5:34:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 5:35:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 5:35:11 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: il valore nullo nella colonna "nation" della relazione "users" viola il vincolo non nullo
+  Dettaglio: La riga in errore contiene (1, Massimo, massimo@unife.it, Marcoooooooooooo@, 2024-07-16, 1974-01-01, null, null, null, 2024-07-16 17:35:11.48395, f, normal, null, f).
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:84)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:243)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: il valore nullo nella colonna "nation" della relazione "users" viola il vincolo non nullo
+  Dettaglio: La riga in errore contiene (1, Massimo, massimo@unife.it, Marcoooooooooooo@, 2024-07-16, 1974-01-01, null, null, null, 2024-07-16 17:35:11.48395, f, normal, null, f).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:81)
+	... 29 more
+
+lug 16, 2024 5:39:08 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 5:39:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 5:39:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 5:39:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 5:39:47 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_pkey"
+  Dettaglio: La chiave (user_id)=(2) esiste già.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:84)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:243)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_pkey"
+  Dettaglio: La chiave (user_id)=(2) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:81)
+	... 29 more
+
+lug 16, 2024 6:52:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 6:52:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 6:52:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 6:53:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 6:53:47 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.UnsupportedOperationException: Not supported.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.getLoggedUser(UserDAOPSQLJDBCImpl.java:104)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:259)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 16, 2024 7:04:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 7:04:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 7:04:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 7:05:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 7:05:54 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.IllegalArgumentException: An invalid character [32] was present in the Cookie value
+	at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:233)
+	at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:118)
+	at org.apache.catalina.connector.Response.generateCookieString(Response.java:947)
+	at org.apache.catalina.connector.Response.addCookie(Response.java:903)
+	at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:302)
+	at com.ma.isw.bookcafe.model.dao.CookieImpl.UserDAOCookieImpl.addUser(UserDAOCookieImpl.java:50)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:274)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 16, 2024 7:39:57 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 7:39:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 7:40:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 7:40:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 7:40:28 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: È stato restituito un valore nonostante non ne fosse atteso nessuno.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:77)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: È stato restituito un valore nonostante non ne fosse atteso nessuno.
+	at org.postgresql.jdbc.PgStatement.checkNoResultUpdate(PgStatement.java:287)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:156)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:65)
+	... 29 more
+
+lug 16, 2024 7:43:43 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 7:43:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 7:43:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 7:44:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 7:44:09 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.IllegalArgumentException: An invalid character [32] was present in the Cookie value
+	at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:233)
+	at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:118)
+	at org.apache.catalina.connector.Response.generateCookieString(Response.java:947)
+	at org.apache.catalina.connector.Response.addCookie(Response.java:903)
+	at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:302)
+	at com.ma.isw.bookcafe.model.dao.CookieImpl.UserDAOCookieImpl.addUser(UserDAOCookieImpl.java:56)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:274)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 16, 2024 7:49:10 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 7:49:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 7:49:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 7:49:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 8:20:02 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 8:20:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 8:20:02 PM com.ma.isw.bookcafe.controller.HomeManagement view
+SEVERE: Controller Error
+java.time.format.DateTimeParseException: Text 'null' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2108)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2010)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:420)
+	at com.ma.isw.bookcafe.model.dao.CookieImpl.UserDAOCookieImpl.decode(UserDAOCookieImpl.java:157)
+	at com.ma.isw.bookcafe.model.dao.CookieImpl.UserDAOCookieImpl.getLoggedUser(UserDAOCookieImpl.java:101)
+	at com.ma.isw.bookcafe.controller.HomeManagement.view(HomeManagement.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doGet(Dispatcher.java:61)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 16, 2024 8:24:08 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 8:24:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 8:24:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 8:24:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:25:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 8:25:23 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: This connection has been closed.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.PSQLJDBCDAOFactory.commitTransaction(PSQLJDBCDAOFactory.java:42)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:289)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: This connection has been closed.
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:1009)
+	at org.postgresql.jdbc.PgConnection.commit(PgConnection.java:995)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.PSQLJDBCDAOFactory.commitTransaction(PSQLJDBCDAOFactory.java:40)
+	... 29 more
+
+lug 16, 2024 8:33:40 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 8:33:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 8:33:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 8:33:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:34:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 8:35:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 8:35:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:35:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 8:36:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 8:39:19 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 8:39:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 8:39:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:40:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 8:40:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 8:40:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 8:40:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:44:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 8:44:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 8:44:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:44:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:44:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:44:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:44:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 8:45:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 9:03:42 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 9:03:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:04:57 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 9:04:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:05:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 9:07:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 16, 2024 9:07:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 16, 2024 9:07:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 9:15:18 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 9:15:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:16:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 9:17:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 9:17:51 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: Errore durante l'inserimento dell'utente nel database
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:81)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_username_key"
+  Dettaglio: La chiave (username)=(Pippo Palla) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:62)
+	... 29 more
+
+lug 16, 2024 9:18:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 9:26:36 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 9:26:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 9:27:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 9:27:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 16, 2024 9:27:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 9:27:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 9:27:52 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: Errore durante l'inserimento dell'utente nel database
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:74)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: la nuova riga per la relazione "users" viola il vincolo di controllo "users_birth_date_check"
+  Dettaglio: La riga in errore contiene (15, Pippo Palla, adsad@sdadsa.com, Password3@, 2024-07-16, 0001-01-01, Algeria, Illizi, null, 2024-07-16 21:27:52.806199, f, normal, null, f).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:62)
+	... 29 more
+
+lug 16, 2024 9:40:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 9:40:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 9:40:36 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: Errore durante l'inserimento dell'utente nel database
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:74)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_username_key"
+  Dettaglio: La chiave (username)=(Pippo Palla) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:62)
+	... 29 more
+
+lug 16, 2024 10:48:43 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 10:48:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 10:48:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 11:03:53 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 11:03:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 11:04:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 16, 2024 11:05:54 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 11:05:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 11:05:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 11:06:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 11:06:56 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException: Username already exists.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:77)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_username_key"
+  Dettaglio: La chiave (username)=(Pippo Palla) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:64)
+	... 29 more
+
+lug 16, 2024 11:10:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 11:10:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 11:10:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 11:11:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 11:11:26 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException: Username already exists.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:77)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:76)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_username_key"
+  Dettaglio: La chiave (username)=(Pippo Palla) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:64)
+	... 29 more
+
+lug 16, 2024 11:12:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 16, 2024 11:13:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 16, 2024 11:19:18 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 11:19:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 11:56:25 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 11:56:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 16, 2024 11:58:16 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 16, 2024 11:58:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:04:15 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:04:15 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:08:38 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:08:38 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:09:43 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:09:43 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:11:14 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:11:14 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:11:42 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:11:42 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:12:32 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:12:32 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:14:47 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:14:47 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:15:23 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:15:23 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:16:35 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:16:35 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:18:01 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:18:01 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:32:51 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:32:51 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:35:36 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:35:36 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:37:17 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:37:17 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:46:06 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:46:06 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:46:49 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:46:49 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:47:39 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:47:39 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:48:38 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:48:38 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 7:53:44 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 7:53:44 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 8:26:07 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 8:26:07 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 8:26:11 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 17, 2024 8:26:17 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+lug 17, 2024 8:26:25 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement logout
+lug 17, 2024 8:31:43 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 8:31:43 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 8:53:53 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 8:53:53 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:23:33 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 9:23:33 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:23:55 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:23:56 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:23:57 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:23:57 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:23:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:28:15 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 9:28:15 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:28:18 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+lug 17, 2024 9:28:21 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 9:28:26 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:52:37 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 9:52:37 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 9:52:40 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:04:57 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:04:57 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:05:01 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:21:13 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:21:13 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:21:17 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:22:58 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:22:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:23:02 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:29:07 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:29:07 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:29:10 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:29:16 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:41:10 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:41:10 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:41:17 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:43:03 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:43:03 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:49:23 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:53:12 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:53:12 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:53:24 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:57:27 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 10:57:27 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 10:57:31 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 10:58:34 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 17, 2024 10:58:35 AM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: Errore durante l'inserimento dell'utente nel database
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:81)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:77)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: il valore nullo nella colonna "city" della relazione "users" viola il vincolo non nullo
+  Dettaglio: La riga in errore contiene (20, Pippo Palla, adasds@adasd.com, Password1@, 2024-07-17, 2001-11-11, Italy, null, null, 2024-07-17 10:58:34.963346, f, normal, null, f).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:64)
+	... 29 more
+
+lug 17, 2024 11:01:15 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 17, 2024 11:01:15 AM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+java.lang.RuntimeException: Errore durante l'inserimento dell'utente nel database
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:81)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:77)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: il valore nullo nella colonna "city" della relazione "users" viola il vincolo non nullo
+  Dettaglio: La riga in errore contiene (21, Pippo Palla, adasds@adasd.com, Password1@, 2024-07-17, 2001-11-11, Italy, null, null, 2024-07-17 11:01:15.169991, f, normal, null, f).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:64)
+	... 29 more
+
+lug 17, 2024 11:06:25 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:06:25 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:06:28 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:07:47 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:07:47 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:07:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:08:39 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 17, 2024 11:08:40 AM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException: Username already exists.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:77)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:77)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_username_key"
+  Dettaglio: La chiave (username)=(Pippo Palla) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:64)
+	... 29 more
+
+lug 17, 2024 11:16:32 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:16:32 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:17:00 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:27:06 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:27:06 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:27:10 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:31:45 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:31:45 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:31:48 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:32:45 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:32:45 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:32:54 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:34:37 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:34:37 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:34:41 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:35:34 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:35:34 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:35:59 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:39:01 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:39:01 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:39:09 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:39:20 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:40:12 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:40:12 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:40:15 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:40:27 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:40:28 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:40:30 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:41:01 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:41:01 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:41:04 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:41:47 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:41:47 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:41:52 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:43:27 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:43:27 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:43:31 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:51:50 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:51:50 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:51:52 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:52:46 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:52:46 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 11:52:52 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 11:59:55 AM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 11:59:55 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:00:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 12:02:55 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:02:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:02:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 12:04:02 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 12:04:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 12:04:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 1:05:37 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 1:05:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 1:08:18 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 1:08:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 1:08:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewSignUp
+lug 17, 2024 1:09:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement signUp
+lug 17, 2024 1:09:49 PM com.ma.isw.bookcafe.controller.UserAccessManagement signUp
+SEVERE: Controller Error
+com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException: Username already exists.
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:77)
+	at com.ma.isw.bookcafe.controller.UserAccessManagement.signUp(UserAccessManagement.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:77)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "users_username_key"
+  Dettaglio: La chiave (username)=(Pippo Palla) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.addUser(UserDAOPSQLJDBCImpl.java:64)
+	... 29 more
+
+lug 17, 2024 1:14:51 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 1:14:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 3:28:53 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 3:28:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 3:28:53 PM com.ma.isw.bookcafe.controller.HomeManagement view
+SEVERE: Controller Error
+java.lang.NullPointerException: Cannot invoke "com.ma.isw.bookcafe.model.dao.BookDAO.getAllBooks()" because "bookDAO" is null
+	at com.ma.isw.bookcafe.controller.HomeManagement.view(HomeManagement.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doGet(Dispatcher.java:62)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+lug 17, 2024 3:32:12 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 3:32:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 3:32:12 PM com.ma.isw.bookcafe.controller.HomeManagement view
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: Colonna denominata «id» non è presente in questo «ResultSet».
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.BookDAOPSQLJDBCImpl.getAllBooks(BookDAOPSQLJDBCImpl.java:91)
+	at com.ma.isw.bookcafe.controller.HomeManagement.view(HomeManagement.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doGet(Dispatcher.java:62)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: Colonna denominata «id» non è presente in questo «ResultSet».
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:3085)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2945)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.BookDAOPSQLJDBCImpl.getAllBooks(BookDAOPSQLJDBCImpl.java:56)
+	... 29 more
+
+lug 17, 2024 3:37:28 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 3:37:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 3:37:29 PM com.ma.isw.bookcafe.controller.HomeManagement view
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: Colonna denominata «publicationYear» non è presente in questo «ResultSet».
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.BookDAOPSQLJDBCImpl.getAllBooks(BookDAOPSQLJDBCImpl.java:90)
+	at com.ma.isw.bookcafe.controller.HomeManagement.view(HomeManagement.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:33)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doGet(Dispatcher.java:62)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: Colonna denominata «publicationYear» non è presente in questo «ResultSet».
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:3085)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2945)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.BookDAOPSQLJDBCImpl.getAllBooks(BookDAOPSQLJDBCImpl.java:60)
+	... 29 more
+
+lug 17, 2024 3:51:42 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 3:51:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 3:54:03 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 3:54:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:02:11 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:02:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:04:26 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:04:26 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:05:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:05:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:06:25 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:06:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:15:31 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:15:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:16:44 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:16:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:19:55 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:19:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:23:42 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:23:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:23:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:23:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+lug 17, 2024 4:25:10 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+lug 17, 2024 4:25:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view

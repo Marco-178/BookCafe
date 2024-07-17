@@ -80,7 +80,7 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
 
     @Override
     public BookDAO getBookDAO() {
-        return null;
+        return new BookDAOPSQLJDBCImpl(connection);
     }
 
     @Override
