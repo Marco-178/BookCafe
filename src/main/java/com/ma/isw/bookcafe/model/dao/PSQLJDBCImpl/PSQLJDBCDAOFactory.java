@@ -85,7 +85,7 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
 
     @Override
     public ClubDAO getClubDAO() {
-        return null;
+        return new ClubDAOPSQLJDBCImpl(connection);
     }
 
     @Override
@@ -100,7 +100,7 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
 
     @Override
     public ThreadDAO getThreadDAO() {
-        return null;
+        return new ThreadDAOPSQLJDBCImpl(connection);
     }
 
     @Override

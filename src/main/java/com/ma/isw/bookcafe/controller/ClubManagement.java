@@ -1,7 +1,9 @@
 package com.ma.isw.bookcafe.controller;
 
+import com.ma.isw.bookcafe.model.dao.ClubDAO;
 import com.ma.isw.bookcafe.model.dao.DAOFactory;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
+import com.ma.isw.bookcafe.model.mo.Club;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.services.config.Configuration;
 import com.ma.isw.bookcafe.services.logservice.LogService;
@@ -9,62 +11,19 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class BookManagement {
+public class ClubManagement {
 
-    private BookManagement() {
-    }
-
-    public static void view(HttpServletRequest request, HttpServletResponse response) {
+    public static void viewClubsList(HttpServletRequest request, HttpServletResponse response) {
 
         DAOFactory sessionDAOFactory= null;
         User loggedUser;
-
-        Logger logger = LogService.getApplicationLogger();
-
-        try {
-
-            Map sessionFactoryParameters=new HashMap<String,Object>();
-            sessionFactoryParameters.put("request",request);
-            sessionFactoryParameters.put("response",response);
-            sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
-            sessionDAOFactory.beginTransaction();
-
-            UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
-            loggedUser = sessionUserDAO.getLoggedUser();
-
-            sessionDAOFactory.commitTransaction();
-
-            request.setAttribute("loggedOn",loggedUser!=null);
-            request.setAttribute("loggedUser", loggedUser);
-            request.setAttribute("viewUrl", "bookSearchManagement/bookSearch");
-
-        } catch (Exception e) {
-            logger.log(Level.SEVERE, "Controller Error", e);
-            try {
-                if (sessionDAOFactory != null) sessionDAOFactory.rollbackTransaction();
-            } catch (Throwable t) {
-            }
-            throw new RuntimeException(e);
-
-        } finally {
-            try {
-                if (sessionDAOFactory != null) sessionDAOFactory.closeTransaction();
-            } catch (Throwable t) {
-            }
-        }
-
-    }
-
-    public static void logon(HttpServletRequest request, HttpServletResponse response) {
-
-        DAOFactory sessionDAOFactory= null;
         DAOFactory daoFactory = null;
-        User loggedUser;
-        String applicationMessage = null;
+        List<Club> clubs;
 
         Logger logger = LogService.getApplicationLogger();
 
@@ -73,42 +32,34 @@ public class BookManagement {
             Map sessionFactoryParameters=new HashMap<String,Object>();
             sessionFactoryParameters.put("request",request);
             sessionFactoryParameters.put("response",response);
+            // recupero dal cookie l'utente che serve alla vista
             sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
             sessionDAOFactory.beginTransaction();
 
             UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
             loggedUser = sessionUserDAO.getLoggedUser();
 
+            // logica vera e propria della view
             daoFactory = DAOFactory.getDAOFactory(Configuration.DAO_IMPL,null);
             daoFactory.beginTransaction();
 
-            String username = request.getParameter("username");
-            String password = request.getParameter("password");
+            // transazione per subscribedTo a partire dal club e da loggedUser
 
-            UserDAO userDAO = daoFactory.getUserDAO();
-            User user = userDAO.getByUsername(username);
+            ClubDAO clubDAO = daoFactory.getClubDAO();
+            clubs = clubDAO.getAllClubs();
 
-            if (user == null || !user.getPassword().equals(password)) {
-                sessionUserDAO.deleteUser(null);
-                applicationMessage = "Username e password errati!";
-                loggedUser=null;
-            } else {
-                loggedUser = sessionUserDAO.addUser(user.getUserId(), user.getUsername(), user.getEmail(), user.getPassword(), user.getSubscriptionDate(), user.getBirthDate(), user.getNation(), user.getCity(), user.getUrlProfilePicture(), user.getLastAccess(), user.isBanned(), user.getUserType(), user.getBiography());
-            }
-
-            daoFactory.commitTransaction();
             sessionDAOFactory.commitTransaction();
+            daoFactory.commitTransaction();
 
+            request.setAttribute("clubsList", clubs);
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
-            request.setAttribute("applicationMessage", applicationMessage);
-            request.setAttribute("viewUrl", "homeManagement/view");
+            request.setAttribute("viewUrl", "clubManagement/clubSearch");
 
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);
             try {
                 if (daoFactory != null) daoFactory.rollbackTransaction();
-                if (sessionDAOFactory != null) sessionDAOFactory.rollbackTransaction();
             } catch (Throwable t) {
             }
             throw new RuntimeException(e);
@@ -116,10 +67,57 @@ public class BookManagement {
         } finally {
             try {
                 if (daoFactory != null) daoFactory.closeTransaction();
-                if (sessionDAOFactory != null) sessionDAOFactory.closeTransaction();
             } catch (Throwable t) {
             }
         }
 
+    }
+
+    public static void viewClub(HttpServletRequest request, HttpServletResponse response) {
+
+        DAOFactory sessionDAOFactory= null;
+        User loggedUser;
+        DAOFactory daoFactory = null;
+        Logger logger = LogService.getApplicationLogger();
+
+        try {
+            Map sessionFactoryParameters = new HashMap<String, Object>();
+            sessionFactoryParameters.put("request", request);
+            sessionFactoryParameters.put("response", response);
+            sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
+            sessionDAOFactory.beginTransaction();
+
+            UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
+            loggedUser = sessionUserDAO.getLoggedUser();
+
+            daoFactory = DAOFactory.getDAOFactory(Configuration.DAO_IMPL, null);
+            daoFactory.beginTransaction();
+
+            ClubDAO clubDAO = daoFactory.getClubDAO();
+            Club club = clubDAO.getClubById(Integer.parseInt(request.getParameter("clubId")));
+
+            sessionDAOFactory.commitTransaction();
+            daoFactory.commitTransaction();
+
+            ThreadManagement.viewThreadsList(request, response);
+
+            request.setAttribute("club", club);
+            request.setAttribute("loggedOn",loggedUser!=null);
+            request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("viewUrl", "clubManagement/clubView");
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, "Controller Error", e);
+            try {
+                if (daoFactory != null) daoFactory.rollbackTransaction();
+            } catch (Throwable t) {
+            }
+            throw new RuntimeException(e);
+
+        } finally {
+            try {
+                if (daoFactory != null) daoFactory.closeTransaction();
+            } catch (Throwable t) {
+            }
+        }
     }
 }

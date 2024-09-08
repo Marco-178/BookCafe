@@ -44,7 +44,7 @@
         <%@include file="/include/header.inc"%>
         <main class="container">
             <div class="main-content">
-                <section id="login" class="clearfix login-flex">
+                <section id="login" class="clearfix login-flex first-content">
                     <article class="login-card">
                         <h1 style="font-size:20px; font-weight: bold"> <strong>Login</strong> </h1>
                         <c:choose>
@@ -62,6 +62,7 @@
                                     <br>
                                     <input class="submit" type="submit" value="Accedi">
                                 </form>
+                                <p>Password dimenticata?<a href="Dispatcher?controllerAction=UserAccessManagement.viewPasswordRecovery"> clicca qui </a></p>
                             </c:when>
                             <c:otherwise>
                                 <p> Benvenuto, ${loggedUser.username} Puoi continuare a navigare sul sito: <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a></p>

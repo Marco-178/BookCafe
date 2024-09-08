@@ -1,9 +1,10 @@
 package com.ma.isw.bookcafe.dispatcher;
 
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.lang.reflect.Method;
+import java.nio.file.Paths;
 import java.rmi.ServerException;
+import java.util.List;
 import java.util.logging.Level;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -11,9 +12,16 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.annotation.MultipartConfig;
 import com.ma.isw.bookcafe.services.logservice.LogService;
+import jakarta.servlet.http.Part;
+import org.apache.commons.fileupload2.core.DiskFileItem;
+import org.apache.commons.fileupload2.core.DiskFileItemFactory;
+import org.apache.commons.fileupload2.jakarta.servlet5.JakartaServletFileUpload;
+
 
 @WebServlet(name = "Dispatcher", urlPatterns = {"/Dispatcher"})
+@MultipartConfig
 public class Dispatcher extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -21,8 +29,31 @@ public class Dispatcher extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-
-            String controllerAction=request.getParameter("controllerAction");
+            String controllerAction = null;
+            boolean isMultipart = JakartaServletFileUpload.isMultipartContent(request);
+            if (isMultipart){
+                DiskFileItemFactory.Builder builder = DiskFileItemFactory.builder();
+                DiskFileItemFactory factory = builder.get();
+                JakartaServletFileUpload<DiskFileItem, DiskFileItemFactory> upload = new JakartaServletFileUpload<>(factory);
+                List<DiskFileItem> items = upload.parseRequest(request);
+                for (DiskFileItem item : items) {
+                    if (item.isFormField()) {
+                        if("controllerAction".equals(item.getFieldName())){
+                            controllerAction = item.getString();
+                        }
+                        else{
+                            request.setAttribute(item.getFieldName(), item.getString());
+                        }
+                    }
+                    else{
+                        request.setAttribute("pictureUpload", item);
+                        System.out.println("picture: "+item.getFieldName()+"content"+item.getString()+"\n");
+                    }
+                }
+            } else {
+                // richieste non multipart, mai usato
+                controllerAction = request.getParameter("controllerAction");
+            }
 
             if (controllerAction==null) controllerAction="HomeManagement.view";
 
@@ -34,8 +65,7 @@ public class Dispatcher extends HttpServlet {
 
             String viewUrl=(String)request.getAttribute("viewUrl");
             RequestDispatcher view=request.getRequestDispatcher("jsp/"+viewUrl+".jsp");
-            request.setAttribute("loggedOn",false);
-            view.forward(request,response); // inoltra richiesta e risposta al jsp per la visualizzazione finale della pagina
+            view.forward(request,response);
 
         } catch (Exception e) {
             e.printStackTrace(out);

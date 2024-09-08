@@ -10,6 +10,7 @@ public class Thread {
     private String contenuto;
     private int userId;
     private boolean deleted;
+    private int clubId;
 
     // Getters and Setters
     public int getThreadId() {
@@ -66,6 +67,14 @@ public class Thread {
 
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
+    }
+
+    public int getClubId() {
+        return userId;
+    }
+
+    public void setClubId(int userId) {
+        this.userId = userId;
     }
 }
 

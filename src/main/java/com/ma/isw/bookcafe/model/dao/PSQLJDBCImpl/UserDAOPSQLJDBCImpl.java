@@ -2,12 +2,14 @@ package com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl;
 
 import java.sql.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
 import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
+import com.ma.isw.bookcafe.model.mo.Thread;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
 
@@ -125,7 +127,7 @@ public class UserDAOPSQLJDBCImpl implements UserDAO{
             ResultSet resultSet = ps.executeQuery();
 
             if (resultSet.next()) {
-                user = read(resultSet);
+                user = UserDAOPSQLJDBCImpl.read(resultSet);
             }
             resultSet.close();
             ps.close();
@@ -139,10 +141,29 @@ public class UserDAOPSQLJDBCImpl implements UserDAO{
 
     @Override
     public List<User> getAllUsers() {
-        throw new UnsupportedOperationException("Not supported.");
+        List<User> users = new ArrayList<>();
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            String sql = "SELECT * FROM user";
+
+            ps = conn.prepareStatement(sql);
+
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                User user = UserDAOPSQLJDBCImpl.read(rs);
+                users.add(user);
+            }
+
+        }
+        catch(SQLException e){
+            throw new RuntimeException(e);
+        }
+        return users;
     }
 
-    public User read(ResultSet rs){
+    public static User read(ResultSet rs){
         User user = new User();
 
         try{

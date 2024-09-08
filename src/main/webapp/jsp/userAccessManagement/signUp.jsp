@@ -63,6 +63,9 @@
                 alert("La password e la conferma password non coincidono.");
                 return false;
             }
+            // rimuovo il conferma password dal submit
+            const input = document.getElementById('confirm_password');
+            input.parentNode.removeChild(input);
             return true;
         }
 
@@ -75,19 +78,17 @@
 
         function showCityInput() {
             let selectedCountry = document.getElementById("nation").value;
-            console.log(selectedCountry);
 
             if (selectedCountry !== "") {
-                document.getElementById('cityInput').removeAttribute('class','hide-selection');
+                document.getElementById('cityInput').classList.remove('hide-selection');
             } else {
-                document.getElementById('cityInput').setAttribute('class','hide-selection');
+                document.getElementById('cityInput').classList.add('hide-selection');
             }
         }
 
         // gestione select nazioni
         document.addEventListener('DOMContentLoaded', async () => {
             const countrySelect = document.getElementById('nation');
-
             try {
                 const response = await fetch('<%=contextPath%>/assets/countries.json');
                 countriesData = await response.json();
@@ -104,6 +105,32 @@
             }
         });
 
+        function applyErrorClass(){
+            <c:if test="${errorMessage}">
+                let message = ""+${errorMessage};
+                switch(message) {
+                    case "DuplicatedUsernameException":
+                        document.getElementById('username').setAttribute('class', 'error-input');
+                        break;
+                    case "InvalidBirthdateException":
+                        document.getElementById('birthdate').setAttribute('class', 'error-input');
+                        break;
+                    case "IOException":
+                        document.getElementById('pictureUpload').setAttribute('class', 'error-input');
+                        break;
+                    case "IllegalArgumentException":
+                        document.getElementById('pictureUpload').setAttribute('class', 'error-input');
+                        break;
+                }
+            </c:if>
+        }
+
+        function removeErrorClass() {
+            document.getElementById('username').removeAttribute('error-input')
+            document.getElementById('birthdate').removeAttribute('error-input')
+            document.getElementById('pictureUpload').removeAttribute('error-input')
+            document.getElementById('pictureUpload').removeAttribute('error-input')
+        }
     </script>
     <style>
         @media(min-width: 65rem){
@@ -126,29 +153,29 @@
 <%@include file="/include/header.inc"%>
 <main class="container">
     <div class="main-content">
-        <section id="login" class="clearfix login-flex">
+        <section id="login" class="clearfix login-flex first-content">
             <article class="login-card">
                 <h1 style="font-size:20px; font-weight: bold"> <strong>Registrazione</strong> </h1>
                 <c:choose>
                     <c:when test="${not loggedOn}">
-                        <p>Inserisci le tue credenziali o se sei già iscritto <a href="Dispatcher?controllerAction=UserAccessManagement.viewlogin">clicca qui </a>per accedere.</p>
-                        <form name="signUp" action="Dispatcher" method="post" onsubmit="return validateForm()">
+                        <p>Inserisci le tue credenziali o se sei già iscritto <a href="Dispatcher?controllerAction=UserAccessManagement.viewLogin">clicca qui </a>per accedere.</p>
+                        <form name="signUp" action="Dispatcher" method="post" onsubmit="return validateForm()" enctype="multipart/form-data">
                             <fieldset>
                                 <legend>Generale</legend>
                                 <label for="username">Inserire Nome utente: </label><br>
                                 <input class="box" type="text" id="username"  name="username" maxlength="40" placeholder="es. utente1" required><br>
 
                                 <label for="birthdate">Data di nascita:</label><br>
-                                <input type="date" id="birthdate" name="birthdate" min="1941-01-01" max="<%=allowedYear%>" required><br>
+                                <input type="date" id="birthdate" name="birthdate" style="padding-left:20px; padding-right:10px;" min="1941-01-01" max="<%=allowedYear%>" required><br>
 
-                                <label for="nation">Seleziona una nazione:</label><br>
-                                <select id="nation" name="nation" onchange="showCityInput()" required>
+                                <label for="nation">Seleziona la nazione di residenza:</label><br>
+                                <select id="nation" name="nation" onchange="showCityInput()" class="box" required>
                                     <option value="">Seleziona la nazione di residenza...</option>
                                 </select>
 
                                 <div id="cityInput" class="hide-selection">
                                     <label for="city">Seleziona la città più vicina:</label><br>
-                                    <input type="text" id="city" name="city" placeholder="Es. Ferrara" required>
+                                    <input class="box" type="text" id="city" name="city" placeholder="Es. Ferrara" required>
                                 </div><br>
 
                                 <label for="email">Inserire e-mail: </label><br>
@@ -163,8 +190,8 @@
 
                             <fieldset>
                                 <legend>Facoltativo</legend>
-                                <label for="photo">Foto profilo:</label>
-                                <input type="file" id="photo" name="photo">
+                                <label for="pictureUpload">Foto profilo:</label> <!-- TODO verificare che funzioni -->
+                                <input type="file" id="pictureUpload" name="photo">
                             </fieldset>
 
                             <input type="hidden" name="controllerAction" value="UserAccessManagement.signUp"/><br>
@@ -172,13 +199,13 @@
                             <c:choose>
                                 <c:when test="${not empty errorMessage}">
                                     <script>
-                                        document.getElementById('username').setAttribute('class','error-input')
+                                        applyErrorClass();
                                     </script>
                                     <p style="color: red;">${errorMessage}</p>
                                 </c:when>
                                 <c:otherwise>
                                     <script>
-                                        document.getElementById('username').removeAttribute('error-input')
+                                        removeErrorClass();
                                     </script>
                                 </c:otherwise>
                             </c:choose>
@@ -189,7 +216,7 @@
                     </c:otherwise>
                 </c:choose>
             </article>
-            <img src="<%=contextPath%>/assets/images/draw.gif" alt="Animated image of a book">
+            <img src="<%=contextPath%>/assets/images/draw.gif" alt="Animated image of a pencil drawing">
         </section>
     </div>
 </main>

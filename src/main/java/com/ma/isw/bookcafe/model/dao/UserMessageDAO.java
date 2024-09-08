@@ -14,5 +14,5 @@ public interface UserMessageDAO {
 
     public UserMessage getMessageById(int messageId);
 
-    public List<UserMessage> getAllMessages();
+    public List<UserMessage> getAllMessages(int threadId);
 }

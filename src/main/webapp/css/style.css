@@ -46,16 +46,19 @@
     --text-primary: black;
     --text-secondary: black;
     --bg-primary: #ece4d0;/*#e3dbc8*/
-    --bg-secondary: #ededef; /* #767F63*/
+    --bg-secondary: #767F63;
+    --bg-pageframe: #ededef;
     --page-width: 1340px;
 }
 
 body{
-    background: var(--bg-secondary)
+    background: var(--bg-pageframe);
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 body::-webkit-scrollbar{ /* non funziona per Firefox, Edge*/
-    width: 0.25rem;
+    width: 0.35rem;
 }
 
 body::-webkit-scrollbar-track{
@@ -63,18 +66,18 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb{
-    background: #b08009;
+    background: var(--bg-secondary);
 }
 
 /*.page-template{
     max-width: var(--page-width);
     margin: 0 auto;
-    background: var(--bg-secondary);
+    background: var(--bg-pageframe);
 }*/
 
 .logo {
-    padding-left: 20px;
-    margin-left: 10px;
+    padding-left: 1.5rem;
+    margin-left: 1.5rem;
     width: 125px;
     height: 125px;
 }
@@ -84,8 +87,11 @@ body::-webkit-scrollbar-thumb{
 }
 
 header {
-    background: #d7c2aa;/*stesso dello sfondo originale del logo non croppato*/
+    background: var(--bg-secondary);/*#d7c2aa colore sfondo logo*/
     padding-top: 10px;
+    /*border: 1px solid #000;*/
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
     border-bottom: 1px solid #000;
 }
 
@@ -123,6 +129,11 @@ a:link, a:active, a:visited {
 main {
     /*margin-top: 0.5rem;*/
     background-color: var(--bg-primary);
+    border: 1px solid;
+}
+
+.first-content{
+    margin-top: 3%;
 }
 
 .container{
@@ -151,13 +162,15 @@ main {
 
 footer {
     text-align:right;
-    font-size:11px;
-    background-color: #767F63;
-    border: 3px solid #000;
+    font-size:14px;
+    background-color: var(--bg-secondary);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #000;
 }
 
 .privacy{
-    background-color: #767F63;
+    background-color: var(--bg-secondary);
 }
 
 @media (min-width: 1537px){

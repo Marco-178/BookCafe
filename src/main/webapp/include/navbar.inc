@@ -1,23 +1,21 @@
 <form name="logoutForm" action="Dispatcher" method="post">
-    <input type="hidden" name="controllerAction" value="HomeManagement.logout"/>
+    <input type="hidden" name="controllerAction" value="UserAccessManagement.logout"/>
 </form>
 
 <%@ page import="com.ma.isw.bookcafe.model.mo.User"%>
 
-<% User loggedUser = (User) request.getAttribute("loggedUser");
-%>
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        //let urlProfilePicture = %>;
-        let urlProfilePicture = null;
-        let fullUrlPic;
-        if(urlProfilePicture != null)
-            fullUrlPic = "<%=contextPath%>"+urlProfilePicture;
-        else
-            fullUrlPic = "<%=contextPath%>/assets/images/profile/default_propic.png";
-        let imageElement = document.getElementById('propic');
-        imageElement.src=fullUrlPic;
+        <c:if test="${loggedOn}">
+            let urlProfilePicture = null;
+            let fullUrlPic;
+            if (urlProfilePicture != null)
+                fullUrlPic = "<%=contextPath%>" + urlProfilePicture;
+            else
+                fullUrlPic = "<%=contextPath%>/assets/images/profile/default_propic.png";
+            let imageElement = document.getElementById('propic');
+            imageElement.src = fullUrlPic;
+        </c:if>
     });
 </script>
 
@@ -27,16 +25,16 @@
             <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a>
         </li>
         <li class="nav-item" <%=menuActiveLink.equals("Club")?"class=\"active\"":""%>>
-            <a href="Dispatcher?controllerAction=clubSearch.view">Club</a>
+            <a href="Dispatcher?controllerAction=ClubManagement.viewClubsList">Club</a>
         </li>
         <li class="nav-item" <%=menuActiveLink.equals("Events")?"class=\"active\"":""%>>
-            <a href="Dispatcher?controllerAction=eventSearch.view">Eventi</a>
+            <a href="Dispatcher?controllerAction=EventManagement.viewEvents">Eventi</a>
         </li>
 
         <c:choose>
             <c:when test="${loggedOn}">
                 <span class="nav-item right">
-                    <img style="width:20px; height: 20px" id="propic" src="" alt="foto_profilo">
+                    <i style="width:20px; height: 20px" id="propic" src="" alt="foto_profilo"></i> <!-- TODO: verificare che icona funzioni con i e non con img-->
                     <li class="red" style="list-style-type: none" <%=menuActiveLink.equals("Profile")?"class=\"active\"":""%>>
                         <a href="Dispatcher?controllerAction=UserAccessManagement.viewProfile">${loggedUser.username}</a>
                     </li>
