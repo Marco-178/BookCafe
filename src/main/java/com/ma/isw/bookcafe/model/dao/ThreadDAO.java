@@ -1,5 +1,6 @@
 package com.ma.isw.bookcafe.model.dao;
 
+import com.ma.isw.bookcafe.model.dao.exception.NoThreadFoundException;
 import com.ma.isw.bookcafe.model.mo.Thread;
 
 import java.util.List;
@@ -13,7 +14,7 @@ public interface ThreadDAO {
 
     public void deleteThread(int threadId);
 
-    public Thread getThreadById(int threadId);
+    public Thread getThreadById(int threadId) throws NoThreadFoundException;
 
     public List<Thread> getAllThreads(int clubId);
 }

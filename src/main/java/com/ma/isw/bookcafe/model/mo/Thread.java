@@ -7,7 +7,7 @@ public class Thread {
     private LocalDateTime creationTimestamp;
     private LocalDateTime timestampLastReply;
     private String category;
-    private String contenuto;
+    private String content;
     private int userId;
     private boolean deleted;
     private int clubId;
@@ -45,12 +45,12 @@ public class Thread {
         this.category = category;
     }
 
-    public String getContenuto() {
-        return contenuto;
+    public String getContent() {
+        return content;
     }
 
-    public void setContenuto(String contenuto) {
-        this.contenuto = contenuto;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public int getUserId() {

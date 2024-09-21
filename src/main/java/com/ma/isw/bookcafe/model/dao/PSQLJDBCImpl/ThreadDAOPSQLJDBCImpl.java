@@ -1,6 +1,7 @@
 package com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl;
 
 import com.ma.isw.bookcafe.model.dao.ThreadDAO;
+import com.ma.isw.bookcafe.model.dao.exception.NoThreadFoundException;
 import com.ma.isw.bookcafe.model.mo.Thread;
 
 import java.sql.*;
@@ -31,7 +32,7 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
     }
 
     @Override
-    public Thread getThreadById(int threadId) {
+    public Thread getThreadById(int threadId) throws NoThreadFoundException {
         Thread thread;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -43,9 +44,15 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
 
             rs = ps.executeQuery();
 
-            thread = readThread(rs, threadId);
+            if(rs.next()) {
+                thread = readThread(rs, threadId);
+            }
+            else throw new NoThreadFoundException("No_Thread_in_DB");
         }
-        catch(SQLException e){
+        catch(Exception e){
+            if(e.getMessage().contains("No_Thread_in_DB")){
+                throw new NoThreadFoundException("Errore: discussione non trovata");
+            }
             throw new RuntimeException(e);
         }
         return thread;
@@ -80,7 +87,7 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
         LocalDateTime creationTimestamp = rs.getTimestamp("creation_timestamp").toLocalDateTime();
         LocalDateTime timestampLastReply = rs.getTimestamp("timestamp_last_reply").toLocalDateTime();
         String category = rs.getString("category");
-        String contenuto = rs.getString("contenuto");
+        String content = rs.getString("contenuto");
         int userId = rs.getInt("user_id");
         boolean deleted = rs.getBoolean("deleted");
 
@@ -89,7 +96,7 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
         thread.setCreationTimestamp(creationTimestamp);
         thread.setTimestampLastReply(timestampLastReply);
         thread.setCategory(category);
-        thread.setContenuto(contenuto);
+        thread.setContent(content);
         thread.setUserId(userId);
         thread.setDeleted(deleted);
 

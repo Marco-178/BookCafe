@@ -77,7 +77,7 @@ public class CookieDAOFactory extends DAOFactory {
     }
 
     @Override
-    public UserMessageDAO getMessageDAO() {
+    public MessageDAO getMessageDAO() {
         throw new UnsupportedOperationException("Not supported");
     }
 

@@ -138,6 +138,42 @@ public class UserAccessManagement {
         }
     }
 
+    public static void viewProfile(HttpServletRequest request, HttpServletResponse response){
+        DAOFactory sessionDAOFactory= null;
+        User loggedUser;
+
+        Logger logger = LogService.getApplicationLogger();
+
+        try {
+            Map sessionFactoryParameters=new HashMap<String,Object>();
+            sessionFactoryParameters.put("request",request);
+            sessionFactoryParameters.put("response",response);
+            sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
+            sessionDAOFactory.beginTransaction();
+
+            UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
+            loggedUser = sessionUserDAO.getLoggedUser();
+
+            sessionDAOFactory.commitTransaction();
+
+            request.setAttribute("loggedOn",loggedUser!=null);
+            request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("viewUrl", "userAccessManagement/userProfile");
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, "Controller Error", e);
+            try {
+                if (sessionDAOFactory != null) sessionDAOFactory.rollbackTransaction();
+            } catch (Throwable t) {
+            }
+            throw new RuntimeException(e);
+        } finally {
+            try {
+                if (sessionDAOFactory != null) sessionDAOFactory.closeTransaction();
+            } catch (Throwable t) {
+            }
+        }
+    }
+
     public static void signUp(HttpServletRequest request, HttpServletResponse response) {
         DAOFactory daoFactory = null;
         DAOFactory sessionDAOFactory= null;

@@ -6,7 +6,7 @@
 %>
 <form id="threadForm" name="threadForm" action="Dispatcher" method="post">
     <input type="hidden" id="threadId" name="threadId" value="-1"/>
-    <input type="hidden" name="controllerAction" value="UserAccessManagement.logout"/>
+    <input type="hidden" name="controllerAction" value="ThreadManagement.viewThread"/>
 </form>
 <html>
     <head>
@@ -32,7 +32,7 @@
                     <!-- discussioni del club -->
                     <ul>
                         <c:forEach var="thread" items="${threadsList}"> <!-- TODO visualizzare i primi tot risultati e continuare solo per esplicita richiesta utente -->
-                            <li><a class="link" href="javascript:sendThreadId(${thread.threadId});">${thread.contenuto}</a></li>
+                            <li><a class="link" href="javascript:sendThreadId(${thread.threadId});">${thread.threadId}${thread.content}</a></li>
                             <li>${thread.category}</li>
                             <li>${thread.creationTimestamp}</li>
                             <br>

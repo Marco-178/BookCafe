@@ -3,10 +3,10 @@ package com.ma.isw.bookcafe.controller;
 import com.ma.isw.bookcafe.model.dao.ThreadDAO;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
 import com.ma.isw.bookcafe.model.dao.DAOFactory;
-import com.ma.isw.bookcafe.model.dao.UserMessageDAO;
+import com.ma.isw.bookcafe.model.dao.MessageDAO;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.model.mo.Thread;
-import com.ma.isw.bookcafe.model.mo.UserMessage;
+import com.ma.isw.bookcafe.model.mo.Message;
 import com.ma.isw.bookcafe.services.config.Configuration;
 import com.ma.isw.bookcafe.services.logservice.LogService;
 import jakarta.servlet.http.HttpServletRequest;
@@ -70,7 +70,7 @@ public class ThreadManagement {
     public static void viewThread(HttpServletRequest request, HttpServletResponse response) {
 
         DAOFactory daoFactory = null;
-        List<UserMessage> messages;
+        List<Message> messages;
         List<User> users;
 
         Logger logger = LogService.getApplicationLogger();
@@ -88,8 +88,8 @@ public class ThreadManagement {
             ThreadDAO threadDAO = daoFactory.getThreadDAO();
             Thread thread = threadDAO.getThreadById(threadId);
 
-            UserMessageDAO messageDAO = daoFactory.getMessageDAO();
-            messages = messageDAO.getAllMessages(threadId);
+            MessageDAO messageDAO = daoFactory.getMessageDAO();
+            messages = messageDAO.getThreadMessages(threadId);
 
             UserDAO userDAO = daoFactory.getUserDAO();
             users = userDAO.getAllUsers();

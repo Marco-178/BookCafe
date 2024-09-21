@@ -145,7 +145,7 @@ public class UserDAOPSQLJDBCImpl implements UserDAO{
         PreparedStatement ps = null;
         ResultSet rs = null;
         try {
-            String sql = "SELECT * FROM user";
+            String sql = "SELECT * FROM users";
 
             ps = conn.prepareStatement(sql);
 

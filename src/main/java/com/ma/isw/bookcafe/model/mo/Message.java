@@ -2,7 +2,7 @@ package com.ma.isw.bookcafe.model.mo;
 
 import java.time.LocalDateTime;
 
-public class UserMessage {
+public class Message {
 
     private int messageId;
     private LocalDateTime creationTimestamp;

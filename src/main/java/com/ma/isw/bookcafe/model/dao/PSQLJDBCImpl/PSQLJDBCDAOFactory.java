@@ -90,7 +90,7 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
 
     @Override
     public EventDAO getEventDAO() {
-        return null;
+        return new EventDAOPSQLJDBCImpl(connection);
     }
 
     @Override
@@ -104,8 +104,8 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
     }
 
     @Override
-    public UserMessageDAO getMessageDAO() {
-        return null;
+    public MessageDAO getMessageDAO() {
+        return new MessageDAOPSQLJDBCImpl(connection);
     }
 
     @Override

@@ -28,7 +28,7 @@
             <a href="Dispatcher?controllerAction=ClubManagement.viewClubsList">Club</a>
         </li>
         <li class="nav-item" <%=menuActiveLink.equals("Events")?"class=\"active\"":""%>>
-            <a href="Dispatcher?controllerAction=EventManagement.viewEvents">Eventi</a>
+            <a href="Dispatcher?controllerAction=EventManagement.viewEventsList">Eventi</a>
         </li>
 
         <c:choose>

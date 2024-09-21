@@ -15,6 +15,7 @@ public class Event {
     private String description;
     private int clubId;
     private boolean deleted;
+    private String eventName;
 
     // Getters and Setters
     public int getEventId() {
@@ -103,6 +104,14 @@ public class Event {
 
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
+    }
+
+    public String getEventName() {
+        return eventName;
+    }
+
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
     }
 }
 

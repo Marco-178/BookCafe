@@ -24,7 +24,7 @@ public abstract class DAOFactory {
     public abstract EventDAO getEventDAO();
     public abstract ReviewDAO getReviewDAO();
     public abstract ThreadDAO getThreadDAO();
-    public abstract UserMessageDAO getMessageDAO();
+    public abstract MessageDAO getMessageDAO();
     public abstract SubscribedToDAO getSubscribedToDAO();
 
     public static DAOFactory getDAOFactory(String whichFactory,Map factoryParameters) {
