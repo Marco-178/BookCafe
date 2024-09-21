@@ -21,34 +21,34 @@
 
 <nav>
     <ul class="navbar">
-        <li class="nav-item" <%= menuActiveLink.equals("Home")?"class=\"active\"":"" %> >
-            <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a>
+        <li class="nav-item">
+            <a class="navbar-option" href="Dispatcher?controllerAction=HomeManagement.view">Home</a>
         </li>
-        <li class="nav-item" <%=menuActiveLink.equals("Club")?"class=\"active\"":""%>>
-            <a href="Dispatcher?controllerAction=ClubManagement.viewClubsList">Club</a>
+        <li class="nav-item">
+            <a class="navbar-option" href="Dispatcher?controllerAction=ClubManagement.viewClubsList">Club</a>
         </li>
-        <li class="nav-item" <%=menuActiveLink.equals("Events")?"class=\"active\"":""%>>
-            <a href="Dispatcher?controllerAction=EventManagement.viewEventsList">Eventi</a>
+        <li class="nav-item">
+            <a class="navbar-option" href="Dispatcher?controllerAction=EventManagement.viewEventsList">Eventi</a>
         </li>
 
         <c:choose>
             <c:when test="${loggedOn}">
                 <span class="nav-item right">
-                    <i style="width:20px; height: 20px" id="propic" src="" alt="foto_profilo"></i> <!-- TODO: verificare che icona funzioni con i e non con img-->
-                    <li class="red" style="list-style-type: none" <%=menuActiveLink.equals("Profile")?"class=\"active\"":""%>>
-                        <a href="Dispatcher?controllerAction=UserAccessManagement.viewProfile">${loggedUser.username}</a>
+                    <li style="list-style-type: none">
+                        <a href="Dispatcher?controllerAction=UserAccessManagement.viewProfile"><img class="propic" id="propic" src="" alt="foto profilo"></a>
+                        <a class="navbar-option" href="Dispatcher?controllerAction=UserAccessManagement.viewProfile">${loggedUser.username}</a>
                     </li>
                 </span>
                 <li class="nav-item">
-                    <a href="javascript:logoutForm.submit()"> Logout </a>
+                    <a class="navbar-option" href="javascript:logoutForm.submit()"> Logout </a>
                 </li>
             </c:when>
             <c:otherwise>
-                <li class="nav-item right red" <%=menuActiveLink.equals("Login")?"class=\"active\"":""%>>
-                    <a href="Dispatcher?controllerAction=UserAccessManagement.viewLogin">Accedi</a>
+                <li class="nav-item right">
+                    <a class="navbar-option" href="Dispatcher?controllerAction=UserAccessManagement.viewLogin">Accedi</a>
                 </li>
-                <li class="nav-item red" <%=menuActiveLink.equals("SignUp")?"class=\"active\"":""%>>
-                    <a href="Dispatcher?controllerAction=UserAccessManagement.viewSignUp">Registrati</a>
+                <li class="nav-item red">
+                    <a class="navbar-option" href="Dispatcher?controllerAction=UserAccessManagement.viewSignUp">Registrati</a>
                 </li>
             </c:otherwise>
         </c:choose>

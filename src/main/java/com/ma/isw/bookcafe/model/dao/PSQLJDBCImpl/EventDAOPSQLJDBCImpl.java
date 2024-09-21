@@ -1,8 +1,11 @@
 package com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl;
 
 import com.ma.isw.bookcafe.model.dao.*;
+import com.ma.isw.bookcafe.model.dao.exception.NoEventFoundException;
+import com.ma.isw.bookcafe.model.dao.exception.NoThreadFoundException;
 import com.ma.isw.bookcafe.model.mo.Event;
 import com.ma.isw.bookcafe.model.mo.Message;
+import com.ma.isw.bookcafe.model.mo.Thread;
 import com.ma.isw.bookcafe.services.config.Configuration;
 
 import java.sql.*;
@@ -33,8 +36,30 @@ public class EventDAOPSQLJDBCImpl implements EventDAO{
     }
 
     @Override
-    public Event getEventById(int eventId) {
-        return null;
+    public Event getEventById(int eventId) throws NoEventFoundException{
+        Event event;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            String sql = "SELECT * FROM club_event WHERE event_id=?";
+
+            ps= conn.prepareStatement(sql);
+            ps.setInt(1, eventId);
+
+            rs = ps.executeQuery();
+
+            if(rs.next()) {
+                event = readEvent(rs);
+            }
+            else throw new NoEventFoundException("No_Event_in_DB");
+        }
+        catch(Exception e){
+            if(e.getMessage().contains("No_Thread_in_DB")){
+                throw new NoEventFoundException("Errore: evento non trovato");
+            }
+            throw new RuntimeException(e);
+        }
+        return event;
     }
 
     @Override
@@ -50,7 +75,7 @@ public class EventDAOPSQLJDBCImpl implements EventDAO{
             rs = ps.executeQuery();
 
             while(rs.next()){
-                Event event = EventDAOPSQLJDBCImpl.read(rs);
+                Event event = EventDAOPSQLJDBCImpl.readEvent(rs);
                 events.add(event);
             }
         }
@@ -60,7 +85,7 @@ public class EventDAOPSQLJDBCImpl implements EventDAO{
         return events;
     }
 
-    public static Event read(ResultSet rs) {
+    public static Event readEvent(ResultSet rs) {
         Event event = new Event();
 
         try {

@@ -90,9 +90,11 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
         String content = rs.getString("contenuto");
         int userId = rs.getInt("user_id");
         boolean deleted = rs.getBoolean("deleted");
+        String title = rs.getString("title");
 
         Thread thread = new Thread();
         thread.setThreadId(threadId);
+        thread.setTitle(title);
         thread.setCreationTimestamp(creationTimestamp);
         thread.setTimestampLastReply(timestampLastReply);
         thread.setCategory(category);

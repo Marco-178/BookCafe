@@ -1,12 +1,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String menuActiveLink = "Visualizza Libro"; // TODO mettere nome libro
-%>
+<%@ page import="com.ma.isw.bookcafe.model.mo.User"%>
+
 <html>
-    <head>
+<head>
+    <%@include file="/include/htmlHead.inc"%>
+    <link rel="stylesheet" href="<%= contextPath %>/css/homeLayout.css?v=<%= timestamp %>" type="text/css" media="screen">
+</head>
+<body>
+    <%@include file="/include/header.inc"%>
+    <main class="container">
+        <div class="main-content">
 
-    </head>
-    <body>
-
-    </body>
+        </div>
+    </main>
+    <%@include file="/include/footer.inc"%>
+</body>
 </html>

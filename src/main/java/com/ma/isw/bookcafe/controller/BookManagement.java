@@ -1,7 +1,12 @@
 package com.ma.isw.bookcafe.controller;
 
+import com.ma.isw.bookcafe.model.dao.BookDAO;
 import com.ma.isw.bookcafe.model.dao.DAOFactory;
+import com.ma.isw.bookcafe.model.dao.ReviewDAO;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
+import com.ma.isw.bookcafe.model.mo.Book;
+import com.ma.isw.bookcafe.model.mo.Club;
+import com.ma.isw.bookcafe.model.mo.Review;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.services.config.Configuration;
 import com.ma.isw.bookcafe.services.logservice.LogService;
@@ -9,6 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -40,7 +46,61 @@ public class BookManagement {
 
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Cerca libri");
             request.setAttribute("viewUrl", "bookSearchManagement/bookSearch");
+
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, "Controller Error", e);
+            try {
+                if (sessionDAOFactory != null) sessionDAOFactory.rollbackTransaction();
+            } catch (Throwable t) {
+            }
+            throw new RuntimeException(e);
+
+        } finally {
+            try {
+                if (sessionDAOFactory != null) sessionDAOFactory.closeTransaction();
+            } catch (Throwable t) {
+            }
+        }
+
+    }
+
+    public static void viewBook(HttpServletRequest request, HttpServletResponse response){
+        DAOFactory sessionDAOFactory= null;
+        User loggedUser;
+        DAOFactory daoFactory = null;
+
+        Logger logger = LogService.getApplicationLogger();
+
+        try {
+
+            Map sessionFactoryParameters=new HashMap<String,Object>();
+            sessionFactoryParameters.put("request",request);
+            sessionFactoryParameters.put("response",response);
+            sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
+            sessionDAOFactory.beginTransaction();
+
+            UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
+            loggedUser = sessionUserDAO.getLoggedUser();
+
+            daoFactory = DAOFactory.getDAOFactory(Configuration.DAO_IMPL, null);
+            daoFactory.beginTransaction();
+
+            BookDAO bookDAO = daoFactory.getBookDAO();
+            Book book = bookDAO.getBookByISBN(request.getParameter("bookISBN"));
+
+            ReviewDAO reviewDAO = daoFactory.getReviewDAO();
+            List<Review> reviews = reviewDAO.getBookReviews(book.getISBN());
+
+            sessionDAOFactory.commitTransaction();
+
+            request.setAttribute("loggedOn",loggedUser!=null);
+            request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("book", book);
+            request.setAttribute("reviews", reviews);
+            request.setAttribute("menuActiveLink", "Libro: " + book.getTitle());
+            request.setAttribute("viewUrl", "bookSearchManagement/bookView");
 
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);

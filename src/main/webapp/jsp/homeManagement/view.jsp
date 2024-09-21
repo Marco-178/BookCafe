@@ -1,13 +1,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%
-    String menuActiveLink = "Home";
-%>
 <!DOCTYPE html>
 <html>
     <head>
         <%@include file="/include/htmlHead.inc"%>
         <link rel="stylesheet" href="<%= contextPath %>/css/homeLayout.css?v=<%= timestamp %>" type="text/css" media="screen">
+
+        <script>
+            function sendBookISBN(book_ISBN){
+                console.log("id:",book_ISBN);
+                document.bookView.bookISBN.value = book_ISBN;
+                document.bookView.submit();
+            }
+        </script>
     </head>
     <body>
         <%@include file="/include/header.inc"%>
@@ -30,8 +35,8 @@
                 <section class="book-grid">
                     <c:forEach var="libro" items="${books}">
                         <article class="card stacked-card featured">
-                            <div class="card__content">
-                                <img class="card__img" src="<%=contextPath%>${libro.urlBookcoverImage}">
+                            <div class="card__content" onclick="location.href='javascript:sendBookISBN(${libro.ISBN});';" style="cursor: pointer;">
+                                <img class="card__img" src="<%=contextPath%>${libro.urlBookcoverImage}" alt="image of book" ${libro.title}>
                                 <h2 class="card_title">${libro.title}</h2>
                                 <p class="card__desc">${libro.description}</p>
                             </div>
@@ -41,5 +46,9 @@
             </div>
         </main>
         <%@include file="/include/footer.inc"%>
+
+        <form name="bookView" method="post" action="Dispatcher?controllerAction=BookManagement.viewBook">
+            <input type="hidden" name="bookISBN"/>
+        </form>
     </body>
 </html>

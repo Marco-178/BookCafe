@@ -49,6 +49,7 @@ public class UserAccessManagement {
 
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Login");
             request.setAttribute("viewUrl", "userAccessManagement/login");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);
@@ -86,6 +87,7 @@ public class UserAccessManagement {
 
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Registrazione");
             request.setAttribute("viewUrl", "userAccessManagement/signUp");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);
@@ -122,6 +124,7 @@ public class UserAccessManagement {
 
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Login: Recupera password");
             request.setAttribute("viewUrl", "userAccessManagement/passwordRecovery");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);
@@ -158,6 +161,7 @@ public class UserAccessManagement {
 
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Profilo di " + loggedUser.getUsername());
             request.setAttribute("viewUrl", "userAccessManagement/userProfile");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);
@@ -276,7 +280,7 @@ public class UserAccessManagement {
             request.setAttribute("loggedOn", sessionLoggedUser!=null);
             request.setAttribute("loggedUser", sessionLoggedUser);
             request.setAttribute("books", HomeManagement.getBooksData()); // per la home, in generale qualsiasi attributo aggiuntivo che serve per una view deve essere settata anche sul logout
-            //request.setAttribute("viewUrl", lastPage);
+            request.setAttribute("menuActiveLink", "Registrazione");
             request.setAttribute("viewUrl", "userAccessManagement/signUp");
         }
         catch (Exception e) {
@@ -343,6 +347,7 @@ public class UserAccessManagement {
 
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Login: Recupera password");
             request.setAttribute("viewUrl", "userAccessManagement/passwordRecovery");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);
@@ -403,6 +408,7 @@ public class UserAccessManagement {
             request.setAttribute("loggedUser", loggedUser);
             request.setAttribute("books", HomeManagement.getBooksData());
             request.setAttribute("applicationMessage", applicationMessage);
+            request.setAttribute("menuActiveLink", "Home");
             request.setAttribute("viewUrl", "homeManagement/view");
 
         } catch (Exception e) {
@@ -446,6 +452,7 @@ public class UserAccessManagement {
             request.setAttribute("loggedOn",false);
             request.setAttribute("loggedUser", null);
             request.setAttribute("books", HomeManagement.getBooksData()); // per la home, in generale qualsiasi attributo aggiuntivo che serve per una view deve essere settata anche sul logout
+            request.setAttribute("menuActiveLink", "Home");
             request.setAttribute("viewUrl", "homeManagement/view");
 
         } catch (Exception e) {

@@ -99,6 +99,7 @@ public class ThreadManagement {
             request.setAttribute("thread", thread);
             request.setAttribute("messagesList", messages);
             request.setAttribute("usersList", users);
+            request.setAttribute("menuActiveLink", "Discussione: " + thread.getTitle());
             request.setAttribute("viewUrl", "threadManagement/threadView");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);

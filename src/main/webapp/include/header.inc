@@ -9,5 +9,4 @@
     <img class="logo-text" src="<%=request.getContextPath()%>/assets/images/logo-text.png" alt="logo" height="75">
   </a>
   <%@include file="navbar.inc"%>
-
 </header>

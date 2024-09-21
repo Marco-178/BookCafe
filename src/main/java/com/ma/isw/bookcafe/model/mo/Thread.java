@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 public class Thread {
     private int threadId;
+    private String title;
     private LocalDateTime creationTimestamp;
     private LocalDateTime timestampLastReply;
     private String category;
@@ -75,6 +76,14 @@ public class Thread {
 
     public void setClubId(int userId) {
         this.userId = userId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }
 

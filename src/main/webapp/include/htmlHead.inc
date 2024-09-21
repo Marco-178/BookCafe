@@ -9,4 +9,5 @@
 <link rel="stylesheet" href="<%= contextPath %>/css/style.css?v=<%= timestamp %>" type="text/css" media="screen">
 <link rel="shortcut icon" href="<%=contextPath%>/assets/images/favicon.ico" >
 <link rel="icon" href="<%=contextPath%>/assets/images/animated_favicon.gif" type="image/gif" >
-<title> BookCafe - <%=menuActiveLink%> </title>
+<c:set var="menuActiveLink" value="${menuActiveLink}" />
+<title> BookCafe - ${menuActiveLink} </title>

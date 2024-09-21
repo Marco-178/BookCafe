@@ -95,7 +95,7 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
 
     @Override
     public ReviewDAO getReviewDAO() {
-        return null;
+        return new ReviewDAOPSQLJDBCImpl(connection);
     }
 
     @Override

@@ -1,9 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.ma.isw.bookcafe.model.mo.Club"%>
 
-<%
-    String menuActiveLink = "panoramica Club";
-%>
 <form id="threadForm" name="threadForm" action="Dispatcher" method="post">
     <input type="hidden" id="threadId" name="threadId" value="-1"/>
     <input type="hidden" name="controllerAction" value="ThreadManagement.viewThread"/>
@@ -11,7 +8,7 @@
 <html>
     <head>
         <%@include file="/include/htmlHead.inc"%>
-        <link rel="stylesheet" href="<%= contextPath %>/css/searchLayout.css?v=<%= timestamp %>" type="text/css" media="screen">
+        <link rel="stylesheet" href="<%= contextPath %>/css/homeLayout.css?v=<%= timestamp %>" type="text/css" media="screen">
         <script>
             function sendThreadId(threadId){
                 document.getElementById("threadId").value = threadId;
@@ -32,7 +29,7 @@
                     <!-- discussioni del club -->
                     <ul>
                         <c:forEach var="thread" items="${threadsList}"> <!-- TODO visualizzare i primi tot risultati e continuare solo per esplicita richiesta utente -->
-                            <li><a class="link" href="javascript:sendThreadId(${thread.threadId});">${thread.threadId}${thread.content}</a></li>
+                            <li><a class="link" href="javascript:sendThreadId(${thread.threadId});">${thread.threadId}${thread.title}</a></li>
                             <li>${thread.category}</li>
                             <li>${thread.creationTimestamp}</li>
                             <br>

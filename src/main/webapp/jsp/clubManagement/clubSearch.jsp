@@ -1,9 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.ma.isw.bookcafe.model.mo.Club"%>
 
-<%
-    String menuActiveLink = "Ricerca Club";
-%>
 <html>
 <head>
     <%@include file="/include/htmlHead.inc"%>

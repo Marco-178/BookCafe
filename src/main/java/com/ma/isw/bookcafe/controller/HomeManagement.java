@@ -53,6 +53,7 @@ public class HomeManagement {
       request.setAttribute("loggedOn",loggedUser!=null);
       request.setAttribute("loggedUser", loggedUser);
       request.setAttribute("books", books);
+      request.setAttribute("menuActiveLink", "Home");
       request.setAttribute("viewUrl", "homeManagement/view");
 
     } catch (Exception e) {

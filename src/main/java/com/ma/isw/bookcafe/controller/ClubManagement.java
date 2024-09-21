@@ -54,6 +54,7 @@ public class ClubManagement {
             request.setAttribute("clubsList", clubs);
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Cerca Club");
             request.setAttribute("viewUrl", "clubManagement/clubSearch");
 
         } catch (Exception e) {
@@ -104,6 +105,7 @@ public class ClubManagement {
             request.setAttribute("club", club);
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Club: " + club.getClubName());
             request.setAttribute("viewUrl", "clubManagement/clubView");
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);

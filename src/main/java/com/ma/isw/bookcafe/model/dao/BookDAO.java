@@ -1,5 +1,6 @@
 package com.ma.isw.bookcafe.model.dao;
 
+import com.ma.isw.bookcafe.model.dao.exception.NoBookFoundException;
 import com.ma.isw.bookcafe.model.mo.Book;
 import java.util.List;
 
@@ -22,7 +23,7 @@ public interface BookDAO {
 
     public void deleteBook(String ISBN);
 
-    public Book getBookByISBN(String ISBN);
+    public Book getBookByISBN(String ISBN) throws NoBookFoundException;
 
     public List<Book> getAllBooks();
 }

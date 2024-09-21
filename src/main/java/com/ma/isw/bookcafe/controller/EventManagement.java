@@ -35,18 +35,15 @@ public class EventManagement {
             Map sessionFactoryParameters=new HashMap<String,Object>();
             sessionFactoryParameters.put("request",request);
             sessionFactoryParameters.put("response",response);
-            // recupero dal cookie l'utente che serve alla vista
+
             sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
             sessionDAOFactory.beginTransaction();
 
             UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
             loggedUser = sessionUserDAO.getLoggedUser();
 
-            // logica vera e propria della view
             daoFactory = DAOFactory.getDAOFactory(Configuration.DAO_IMPL,null);
             daoFactory.beginTransaction();
-
-            // transazione per subscribedTo a partire dal club e da loggedUser
 
             EventDAO eventDAO = daoFactory.getEventDAO();
             eventsList = eventDAO.getAllEvents();
@@ -57,7 +54,61 @@ public class EventManagement {
             request.setAttribute("eventsList", eventsList);
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Lista eventi");
             request.setAttribute("viewUrl", "eventManagement/eventSearch");
+
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, "Controller Error", e);
+            try {
+                if (daoFactory != null) daoFactory.rollbackTransaction();
+            } catch (Throwable t) {
+            }
+            throw new RuntimeException(e);
+
+        } finally {
+            try {
+                if (daoFactory != null) daoFactory.closeTransaction();
+            } catch (Throwable t) {
+            }
+        }
+    }
+
+    public static void viewEvent(HttpServletRequest request, HttpServletResponse response) {
+
+        DAOFactory sessionDAOFactory= null;
+        User loggedUser;
+        DAOFactory daoFactory = null;
+
+        Logger logger = LogService.getApplicationLogger();
+
+        try {
+
+            Map sessionFactoryParameters=new HashMap<String,Object>();
+            sessionFactoryParameters.put("request",request);
+            sessionFactoryParameters.put("response",response);
+
+            int eventId = Integer.parseInt(request.getParameter("eventId"));
+
+            sessionDAOFactory = DAOFactory.getDAOFactory(Configuration.COOKIE_IMPL,sessionFactoryParameters);
+            sessionDAOFactory.beginTransaction();
+
+            UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
+            loggedUser = sessionUserDAO.getLoggedUser();
+
+            daoFactory = DAOFactory.getDAOFactory(Configuration.DAO_IMPL,null);
+            daoFactory.beginTransaction();
+
+            EventDAO eventDAO = daoFactory.getEventDAO();
+            Event event = eventDAO.getEventById(eventId);
+
+            sessionDAOFactory.commitTransaction();
+            daoFactory.commitTransaction();
+
+            request.setAttribute("event", event);
+            request.setAttribute("loggedOn",loggedUser!=null);
+            request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("menuActiveLink", "Evento: " + event.getEventName());
+            request.setAttribute("viewUrl", "eventManagement/eventView");
 
         } catch (Exception e) {
             logger.log(Level.SEVERE, "Controller Error", e);

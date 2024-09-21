@@ -13,5 +13,7 @@ public interface ReviewDAO {
 
     public Review getReviewById(int reviewId);
 
+    public List<Review> getBookReviews(String bookISBN);
+
     public List<Review> getAllReviews();
 }

@@ -5,7 +5,6 @@
 <%
     LocalDate today = LocalDate.now();
     LocalDate allowedYear = today.minusYears(18);
-    String menuActiveLink = "Sign Up";
 %>
 <html>
 <head>
