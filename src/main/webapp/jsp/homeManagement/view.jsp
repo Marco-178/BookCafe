@@ -21,6 +21,7 @@
                 <c:choose>
                     <c:when test="${loggedOn}">
                         <h1 class ="greetings"> Benvenuto ${loggedUser.username}! </h1>
+                        <p> Con Bookcafe puoi discutere con altri lettori dei tuoi libri preferiti, iscriverti a gruppi di lettura e informarti sugli eventi di lettura più vicini a te. </p>
                         <!-- TODO: if(ci sono eventi da consigliarti) -->
                         <p> Consulta in fondo alla pagina gli eventi che potrebbero interessarti. </p>
                         <br/>
@@ -36,7 +37,7 @@
                     <c:forEach var="libro" items="${books}">
                         <article class="card stacked-card featured">
                             <div class="card__content" onclick="location.href='javascript:sendBookISBN(${libro.ISBN});';" style="cursor: pointer;">
-                                <img class="card__img" src="<%=contextPath%>${libro.urlBookcoverImage}" alt="image of book" ${libro.title}>
+                                <img class="card__img" src="<%=contextPath%>${libro.urlBookcoverImage}" alt="image of book ${libro.title}">
                                 <h2 class="card_title">${libro.title}</h2>
                                 <p class="card__desc">${libro.description}</p>
                             </div>

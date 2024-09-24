@@ -1,0 +1,222 @@
+.book-card {
+    background-color: #f3ead6;
+    padding: 1rem;
+    border: 3px solid black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    flex: 1 1 100%; /* Di default, gli elementi prendono l'intera larghezza */
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.book-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+.book-view-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3.5rem;
+}
+
+.book-view-item:nth-child(2) {
+    justify-self: start;
+    align-self: start;
+}
+
+.book-view-image{
+    width:100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-view-description-grid{
+    display: grid;
+}
+
+.book-title{
+    margin-bottom: 0.1rem;
+}
+
+.subtitle {
+    color: gray;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.author{
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.mini-title{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.information-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.rating-icon{
+    height: 65px;
+    width: 75px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+    object-fit: cover;
+}
+
+.review-card {
+    background-color: #f3ead6;
+    padding: 1rem;
+    border: 2px solid var(--bg-secondary);
+    /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+    border-radius: 40px;
+    width: 80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin-bottom: 20px;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+.reviewer-image{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.add-review-plus-button {
+    display: block;
+    padding: 0;
+    color: #000;
+    background: #C3DCB8FF;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.add-review-plus-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.edit-review-button {
+    display: inline-block;
+    padding: 0 30px;
+    color: #000;
+    background: #acb990;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.edit-review-button:hover {
+    background-color: #9fb080;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.delete-review-button{
+    display: inline-block;
+    padding: 0 30px;
+    color: #FFF;
+    background: #b99090;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.delete-review-button:hover {
+    background-color: #a67c7c;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.right{
+    margin-left: auto;
+    width: fit-content;
+}
+
+.add-review-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.add-review-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 320px;
+    padding-bottom: 1rem;
+}
+
+.rating>input {
+    flex: 1 1 0%;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.rating>input::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../assets/images/star.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    filter: grayscale(100%) contrast(200%);
+    font-size: 200%;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.rating>input:checked::before,
+.rating>input:checked~input::before {
+    filter: unset;
+}
+
+.rating > input:hover::before {
+    transform: scale(1.4);
+}
+
+.dialog-flex{
+    display:flex;
+    flex-direction: row;
+    gap: 0.25rem;
+}
+
+.dialog-card{
+    background-color: #f3ead6;
+    padding: 1rem;
+    border: 3px solid black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+}

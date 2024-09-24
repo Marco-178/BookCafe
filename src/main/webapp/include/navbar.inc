@@ -34,7 +34,7 @@
         <c:choose>
             <c:when test="${loggedOn}">
                 <span class="nav-item right">
-                    <li style="list-style-type: none">
+                    <li style="list-style-type: none;">
                         <a href="Dispatcher?controllerAction=UserAccessManagement.viewProfile"><img class="propic" id="propic" src="" alt="foto profilo"></a>
                         <a class="navbar-option" href="Dispatcher?controllerAction=UserAccessManagement.viewProfile">${loggedUser.username}</a>
                     </li>

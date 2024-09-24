@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 
 import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
 import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
+import com.ma.isw.bookcafe.model.mo.Review;
 import com.ma.isw.bookcafe.model.mo.Thread;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
@@ -161,6 +162,21 @@ public class UserDAOPSQLJDBCImpl implements UserDAO{
             throw new RuntimeException(e);
         }
         return users;
+    }
+
+    @Override
+    public List<User> getReviewers(List<Review> reviews) {
+        List<User> users = getAllUsers();
+        List<User> reviewers = new ArrayList<>();
+        for (Review review : reviews) {
+            for (User user : users) {
+                if (user.getUserId() == review.getUserId()) {
+                    reviewers.add(user);
+                    break;
+                }
+            }
+        }
+        return reviewers;
     }
 
     public static User read(ResultSet rs){

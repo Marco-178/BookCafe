@@ -1,9 +1,15 @@
 package com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl;
 
+import com.ma.isw.bookcafe.controller.UserAccessManagement;
 import com.ma.isw.bookcafe.model.dao.ReviewDAO;
+import com.ma.isw.bookcafe.model.dao.UserDAO;
+import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
+import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
 import com.ma.isw.bookcafe.model.mo.Book;
 import com.ma.isw.bookcafe.model.mo.Review;
+import com.ma.isw.bookcafe.model.mo.User;
 
+import java.sql.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -17,8 +23,35 @@ public class ReviewDAOPSQLJDBCImpl implements ReviewDAO {
     public ReviewDAOPSQLJDBCImpl(Connection conn) {this.conn = conn;}
 
     @Override
-    public Review addReview(int reviewId, int rating, String testo, String ISBNBook, int userId) {
-        return null;
+    public void addReview(Review review) {
+        PreparedStatement ps = null;
+
+        try{
+            String sql = "INSERT INTO review"
+                    + "(rating, testo, isbn_book, user_id)"
+                    + "VALUES (?,?,?,?)"
+                    + "RETURNING review_id";
+
+            ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            int i = 1;
+            ps.setInt(i++, review.getRating());
+            ps.setString(i++, review.getTesto());
+            ps.setString(i++, review.getISBNBook());
+            ps.setInt(i++, review.getUserId());
+
+            int affectedRows = ps.executeUpdate();
+
+            if (affectedRows > 0) {
+                try (ResultSet rs = ps.getGeneratedKeys()) {
+                    if (rs.next()) {
+                        int userReviewId = rs.getInt(1);
+                        review.setReviewId(userReviewId);
+                    }
+                }
+            }
+        } catch(SQLException e){
+            throw new RuntimeException("Errore durante l'inserimento della recensione nel database", e);
+        }
     }
 
     @Override
@@ -28,7 +61,19 @@ public class ReviewDAOPSQLJDBCImpl implements ReviewDAO {
 
     @Override
     public void deleteReview(int reviewId) {
+        PreparedStatement ps = null;
+        try {
+            String sql = " UPDATE review "
+                    + "   SET deleted = true "
+                    + "   WHERE review_id = ?";
 
+            ps= conn.prepareStatement(sql);
+            ps.setInt(1, reviewId);
+            ps.executeUpdate();
+        }
+        catch(SQLException e){
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
@@ -49,8 +94,7 @@ public class ReviewDAOPSQLJDBCImpl implements ReviewDAO {
 
             while (rs.next()) {
                 Review review = readReview(rs);
-
-                reviews.add(review);
+                if(!review.isDeleted()) reviews.add(review);
             }
         }
         catch(SQLException e){

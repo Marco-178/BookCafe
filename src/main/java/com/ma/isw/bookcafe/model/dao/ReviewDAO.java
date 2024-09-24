@@ -1,11 +1,13 @@
 package com.ma.isw.bookcafe.model.dao;
 
 import com.ma.isw.bookcafe.model.mo.Review;
+import com.ma.isw.bookcafe.model.mo.User;
+
 import java.util.List;
 
 public interface ReviewDAO {
 
-    public Review addReview(int reviewId, int rating, String testo, String ISBNBook, int userId);
+    public void addReview(Review review);
 
     public void updateReview(Review review);
 

@@ -1,5 +1,6 @@
 package com.ma.isw.bookcafe.model.dao.CookieImpl;
 
+import com.ma.isw.bookcafe.model.mo.Review;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -44,8 +45,17 @@ public class UserDAOCookieImpl implements UserDAO {
         User loggedUser = new User();
         loggedUser.setUserId(userId);
         loggedUser.setUsername(username);
+        loggedUser.setEmail(email);
+        loggedUser.setPassword(password);
         loggedUser.setSubscriptionDate(subscriptionDate);
+        loggedUser.setBirthDate(birthDate);
+        loggedUser.setNation(nation);
+        loggedUser.setCity(city);
+        loggedUser.setUrlProfilePicture(urlProfilePicture);
+        loggedUser.setLastAccess(lastAccess);
+        loggedUser.setBanned(banned);
         loggedUser.setUserType(userType);
+        loggedUser.setPassword(biography);
 
         String encodedUser = encode(loggedUser);
         String sanitizedEncodedUser = sanitizeCookieValue(encodedUser);
@@ -119,6 +129,11 @@ public class UserDAOCookieImpl implements UserDAO {
 
     @Override
     public List<User> getAllUsers() {
+        throw new UnsupportedOperationException("Not supported.");
+    }
+
+    @Override
+    public List<User> getReviewers(List<Review> reviews) {
         throw new UnsupportedOperationException("Not supported.");
     }
 
