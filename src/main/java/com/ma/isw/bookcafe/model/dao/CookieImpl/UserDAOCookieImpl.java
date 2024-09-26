@@ -27,35 +27,22 @@ public class UserDAOCookieImpl implements UserDAO {
     }
 
     @Override
-    public User addUser(
-            Integer userId,
-            String username,
-            String email,
-            String password,
-            LocalDate subscriptionDate,
-            LocalDate birthDate,
-            String nation,
-            String city,
-            String urlProfilePicture,
-            LocalDateTime lastAccess,
-            Boolean banned,
-            String userType,
-            String biography) {
+    public User addUser(User userToAdd) {
 
         User loggedUser = new User();
-        loggedUser.setUserId(userId);
-        loggedUser.setUsername(username);
-        loggedUser.setEmail(email);
-        loggedUser.setPassword(password);
-        loggedUser.setSubscriptionDate(subscriptionDate);
-        loggedUser.setBirthDate(birthDate);
-        loggedUser.setNation(nation);
-        loggedUser.setCity(city);
-        loggedUser.setUrlProfilePicture(urlProfilePicture);
-        loggedUser.setLastAccess(lastAccess);
-        loggedUser.setBanned(banned);
-        loggedUser.setUserType(userType);
-        loggedUser.setPassword(biography);
+        loggedUser.setUserId(userToAdd.getUserId());
+        loggedUser.setUsername(userToAdd.getUsername());
+        loggedUser.setEmail(userToAdd.getEmail());
+        loggedUser.setPassword(userToAdd.getPassword());
+        loggedUser.setSubscriptionDate(userToAdd.getSubscriptionDate());
+        loggedUser.setBirthDate(userToAdd.getBirthDate());
+        loggedUser.setNation(userToAdd.getNation());
+        loggedUser.setCity(userToAdd.getCity());
+        loggedUser.setUrlProfilePicture(userToAdd.getUrlProfilePicture());
+        loggedUser.setLastAccess(userToAdd.getLastAccess());
+        loggedUser.setBanned(userToAdd.isBanned());
+        loggedUser.setUserType(userToAdd.getUserType());
+        loggedUser.setBiography(userToAdd.getBiography());
 
         String encodedUser = encode(loggedUser);
         String sanitizedEncodedUser = sanitizeCookieValue(encodedUser);
@@ -79,16 +66,16 @@ public class UserDAOCookieImpl implements UserDAO {
 
     @Override
     public void updateUser(User loggedUser) {
-
-        Cookie cookie;
-        cookie = new Cookie("loggedUser", encode(loggedUser));
-        cookie.setPath("/");
-        response.addCookie(cookie);
-
+        throw new UnsupportedOperationException("Not supported.");
     }
 
     @Override
-    public void deleteUser(Integer userId) {
+    public void removeUser(Integer userId) {
+        throw new UnsupportedOperationException("Not supported.");
+    }
+
+    @Override
+    public void deleteUser(User user) {
 
         Cookie cookie;
         cookie = new Cookie("loggedUser", "");
@@ -96,6 +83,11 @@ public class UserDAOCookieImpl implements UserDAO {
         cookie.setPath("/");
         response.addCookie(cookie);
 
+    }
+
+    @Override
+    public void banUser(User user) {
+        throw new UnsupportedOperationException("Not supported.");
     }
 
     @Override
@@ -108,7 +100,9 @@ public class UserDAOCookieImpl implements UserDAO {
             for (int i = 0; i < cookies.length && loggedUser == null; i++) {
                 if (cookies[i].getName().equals("loggedUser")) {
                     String desanitizedValue = desanitizeCookieValue(cookies[i].getValue());
-                    loggedUser = decode(desanitizedValue);
+                    if (!desanitizedValue.isEmpty()) {
+                        loggedUser = decode(desanitizedValue);
+                    }
                 }
             }
         }
@@ -118,7 +112,7 @@ public class UserDAOCookieImpl implements UserDAO {
     }
 
     @Override
-    public User getByUserId(Integer userId) {
+    public User getUserById(Integer userId) {
         throw new UnsupportedOperationException("Not supported.");
     }
 
@@ -136,6 +130,9 @@ public class UserDAOCookieImpl implements UserDAO {
     public List<User> getReviewers(List<Review> reviews) {
         throw new UnsupportedOperationException("Not supported.");
     }
+
+    @Override
+    public LocalDateTime updateLastAccess(User user) {throw new UnsupportedOperationException("Not supported.");}
 
     private String encode(User loggedUser) {
 

@@ -14,6 +14,7 @@
     <title>Page Redirection</title>
 </head>
     <body>
-        If you are not redirected automatically, follow the <a href='<%=contextPath%>/Dispatcher'>link</a>
+        Se non vieni reindirizzato automaticamente al sito, clicca qui: <a href='<%=contextPath%>/Dispatcher'>link</a>
+        <img src="<%=request.getContextPath()%>/assets/images/loading-kittens.gif" style="display: block; margin: 0 auto;" alt="loading picture of kittens";>
     </body>
 </html>

@@ -189,8 +189,8 @@
 
                             <fieldset>
                                 <legend>Facoltativo</legend>
-                                <label for="pictureUpload">Foto profilo:</label> <!-- TODO verificare che funzioni -->
-                                <input type="file" id="pictureUpload" name="photo">
+                                <label for="pictureUpload">Foto profilo:</label>
+                                <input type="file" id="pictureUpload" name="pictureUpload">
                             </fieldset>
 
                             <input type="hidden" name="controllerAction" value="UserAccessManagement.signUp"/><br>
@@ -211,7 +211,7 @@
                         </form>
                     </c:when>
                     <c:otherwise>
-                        <p> Benvenuto, ${loggedUser.username} ${loggedUser.getUserId()}! Puoi continuare a navigare sul sito: <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a></p>
+                        <p> Benvenuto, ${loggedUser.username}! Puoi continuare a navigare sul sito: <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a></p>
                     </c:otherwise>
                 </c:choose>
             </article>

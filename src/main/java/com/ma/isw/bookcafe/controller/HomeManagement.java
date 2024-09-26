@@ -45,6 +45,7 @@ public class HomeManagement {
       sessionDAOFactory.beginTransaction();
 
       UserDAO sessionUserDAO = sessionDAOFactory.getUserDAO();
+      //sessionUserDAO.deleteUser(new User());
       loggedUser = sessionUserDAO.getLoggedUser();
 
       daoFactory.commitTransaction();

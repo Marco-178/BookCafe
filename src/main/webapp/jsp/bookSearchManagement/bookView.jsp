@@ -44,6 +44,11 @@
             document.removeReview.modifyReview.value = selectedReviewId;
             document.removeReview.submit();
         }
+
+        function toReviewerProfile(selectedUserId){
+            document.toReviewerProfile.profileId.value = selectedUserId;
+            document.toReviewerProfile.submit();
+        }
     </script>
 </head>
 <body>
@@ -131,7 +136,7 @@
                         <c:forEach var="review" items="${reviews}" varStatus="status">
                             <article class="review-card">
                                 <c:set var="reviewer" value="${reviewers[status.index]}" />
-                                <img class="reviewer-image" src="<%=contextPath%>${reviewer.urlProfilePicture}" alt="image of user: ${reviewer.username}">
+                                <img class="reviewer-image" src="<%=contextPath%>${reviewer.urlProfilePicture}" alt="image of user: ${reviewer.username}" onclick="location.href='javascript:toReviewerProfile(${reviewer.userId});'">
                                 <div>
                                     <div style="max-height: 40px">
                                         <c:choose>
@@ -185,7 +190,7 @@
         </div>
     </main>
     <dialog id="reviewDialog" class="modal dialog-card">
-        <div class="dialog-content dialog-flex">
+        <div class="dialog-flex">
             <div>
                 <img class="reviewer-image" src="<%=contextPath%>${loggedUser.urlProfilePicture}" alt="image of your profile">
             </div>
@@ -223,6 +228,10 @@
     <form name="removeReview" method="post" action="Dispatcher?controllerAction=ReviewManagement.removeReview">
         <input type="hidden" name="bookISBN"/>
         <input type="hidden" name="modifyReview"/>
+    </form>
+
+    <form name="toReviewerProfile" method="post" action="Dispatcher?controllerAction=UserAccessManagement.viewProfile">
+        <input type="hidden" name="profileId">
     </form>
 </body>
 </html>

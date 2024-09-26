@@ -7,7 +7,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         <c:if test="${loggedOn}">
-            let urlProfilePicture = null;
+            let urlProfilePicture = '${loggedUser.urlProfilePicture}';
             let fullUrlPic;
             if (urlProfilePicture != null)
                 fullUrlPic = "<%=contextPath%>" + urlProfilePicture;

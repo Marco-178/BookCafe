@@ -163,7 +163,7 @@ public class BookManagement {
                 applicationMessage = "Username e password errati!";
                 loggedUser=null;
             } else {
-                loggedUser = sessionUserDAO.addUser(user.getUserId(), user.getUsername(), user.getEmail(), user.getPassword(), user.getSubscriptionDate(), user.getBirthDate(), user.getNation(), user.getCity(), user.getUrlProfilePicture(), user.getLastAccess(), user.isBanned(), user.getUserType(), user.getBiography());
+                loggedUser = sessionUserDAO.addUser(user);
             }
 
             daoFactory.commitTransaction();

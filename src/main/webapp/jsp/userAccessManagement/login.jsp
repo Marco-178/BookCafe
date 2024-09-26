@@ -46,7 +46,7 @@
                         <h1 style="font-size:20px; font-weight: bold"> <strong>Login</strong> </h1>
                         <c:choose>
                             <c:when test="${not loggedOn}">
-                                <p>Inserisci le tue credenziali o <a href="Dispatcher?controllerAction=UserAccessManagement.viewSignUp">clicca qui </a>per registrarti.</p>
+                                <p>Inserisci le tue credenziali o <a href="Dispatcher?controllerAction=UserAccessManagement.viewSignUp">clicca qui</a> per registrarti.</p>
                                 <form name="logonForm" action="Dispatcher" method="post">
                                     <label for="username">Nome utente: </label>
                                     <br>
@@ -60,9 +60,16 @@
                                     <input class="submit" type="submit" value="Accedi">
                                 </form>
                                 <p>Password dimenticata?<a href="Dispatcher?controllerAction=UserAccessManagement.viewPasswordRecovery"> clicca qui </a></p>
+                                <c:choose>
+                                    <c:when test="${not empty errorMessage}">
+                                        <p style="color: red;">${errorMessage}</p>
+                                    </c:when>
+                                    <c:otherwise>
+                                    </c:otherwise>
+                                </c:choose>
                             </c:when>
                             <c:otherwise>
-                                <p> Benvenuto, ${loggedUser.username} Puoi continuare a navigare sul sito: <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a></p>
+                                <p> Benvenuto, ${loggedUser.username}! Puoi continuare a navigare sul sito: <a href="Dispatcher?controllerAction=HomeManagement.view">Home</a></p>
                             </c:otherwise>
                         </c:choose>
                     </article>

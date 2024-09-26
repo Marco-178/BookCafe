@@ -31,27 +31,27 @@ public class Dispatcher extends HttpServlet {
         try {
             String controllerAction = null;
             boolean isMultipart = JakartaServletFileUpload.isMultipartContent(request);
-            if (isMultipart){
-                DiskFileItemFactory.Builder builder = DiskFileItemFactory.builder();
-                DiskFileItemFactory factory = builder.get();
-                JakartaServletFileUpload<DiskFileItem, DiskFileItemFactory> upload = new JakartaServletFileUpload<>(factory);
-                List<DiskFileItem> items = upload.parseRequest(request);
-                for (DiskFileItem item : items) {
-                    if (item.isFormField()) {
-                        if("controllerAction".equals(item.getFieldName())){
-                            controllerAction = item.getString();
-                        }
-                        else{
-                            request.setAttribute(item.getFieldName(), item.getString());
-                        }
-                    }
-                    else{
-                        request.setAttribute("pictureUpload", item);
-                        System.out.println("picture: "+item.getFieldName()+"content"+item.getString()+"\n");
+            if (isMultipart) {
+                // passa il file al controller
+                Part pictureUploadPart = request.getPart("pictureUpload");
+                if (pictureUploadPart != null && pictureUploadPart.getSize() > 0) {
+                    request.setAttribute("pictureUpload", pictureUploadPart);
+                }
+
+                // estrae controller
+                controllerAction = request.getParameter("controllerAction");
+                if (controllerAction == null) {
+                    controllerAction = "HomeManagement.view";
+                }
+
+                // passa al controller gli altri attributi
+                for (String fieldName : request.getParameterMap().keySet()) { // restituisce coppie chiave-valore dei parametri della richiesta
+                    if (!fieldName.equals("pictureUpload")) {
+                        request.setAttribute(fieldName, request.getParameter(fieldName));
                     }
                 }
             } else {
-                // richieste non multipart, mai usato
+                // richieste non multipart
                 controllerAction = request.getParameter("controllerAction");
             }
 

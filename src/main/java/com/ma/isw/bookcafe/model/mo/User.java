@@ -131,4 +131,23 @@ public class User {
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
     }
+
+    // Funzioni
+
+    public void setUser(User userToCopy){
+        this.userId = userToCopy.getUserId();
+        this.username = userToCopy.getUsername();
+        this.email = userToCopy.getEmail();
+        this.password = userToCopy.getPassword();
+        this.subscriptionDate = userToCopy.getSubscriptionDate();
+        this.birthDate = userToCopy.getBirthDate();
+        this.nation = userToCopy.getNation();
+        this.city = userToCopy.getCity();
+        this.urlProfilePicture = userToCopy.getUrlProfilePicture();
+        this.lastAccess = userToCopy.getLastAccess();
+        this.banned = userToCopy.isBanned();
+        this.userType = userToCopy.getUserType();
+        this.biography = userToCopy.getBiography();
+        this.deleted = userToCopy.isDeleted();
+    }
 }

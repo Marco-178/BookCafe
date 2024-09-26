@@ -10,8 +10,8 @@
 }
 
 .book-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transition: 1s;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
 }
 
 .book-view-grid{
@@ -96,6 +96,7 @@
     border: 1px solid black;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .add-review-plus-button {
@@ -141,7 +142,7 @@
     display: inline-block;
     padding: 0 30px;
     color: #FFF;
-    background: #b99090;
+    background: #bd7a7a;
     font-weight: bold;
     border-radius: 6px;
     height: 50px;
@@ -151,7 +152,7 @@
 }
 
 .delete-review-button:hover {
-    background-color: #a67c7c;
+    background-color: #AF6565;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
 }
@@ -219,4 +220,32 @@
     border: 3px solid black;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
+    width: 460px;
+    max-width: 90%;
+}
+
+.modal[open]{
+    animation: fade-up 300ms forwards;
+}
+
+@keyframes fade-down{
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
 }

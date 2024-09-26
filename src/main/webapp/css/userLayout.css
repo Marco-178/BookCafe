@@ -1,8 +1,8 @@
-user-title{
+.user-title{
 
 }
 
-user-card{
+.user-card{
     background-color: #f3ead6;
     padding: 1rem;
     border: 3px solid black;
@@ -13,8 +13,127 @@ user-card{
     margin-bottom: 40px;
 }
 
-user-view-grid{
+.user-card:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+
+.user-view-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.5rem;
+}
+
+.profile-image{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.subtitle {
+    color: gray;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.edit-profile-button {
+    display: inline-block;
+    padding: 0 30px;
+    color: #000;
+    background: #acb990;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.edit-profile-button:hover {
+    background-color: #9fb080;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.delete-profile-button{
+    display: inline-block;
+    padding: 0 30px;
+    color: #FFF;
+    background: #bd7a7a;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.delete-profile-button:hover {
+    background-color: #AF6565;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.right{
+    margin-left: auto;
+    width: fit-content;
+}
+
+.box{
+    width:255px;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+input:focus{
+    border: 3px solid #767F63;
+    transition: all 0.1s ease;
+}
+
+input:hover{
+    border-color: #000;
+}
+
+select{
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 0 16px;
+    height: 30px;
+    align-items: center;
+}
+
+option{
+    background-color: #fff;
+    margin-right: 16px;
+}
+
+.textArea{
+    height: 120px;
+    width: 75%;
+}
+
+.error-input{
+    border-bottom: 3px solid rgba(255, 0, 0, 0.4);
+}
+
+.hide-selection{
+    display: none;
+}
+
+.formAdmin{
+
 }
