@@ -90,3 +90,7 @@
     font-weight: bold;
     font-size: larger;
 }
+
+#categoryFilter{
+    margin-bottom: 5px;
+}

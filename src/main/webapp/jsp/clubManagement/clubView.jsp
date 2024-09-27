@@ -9,46 +9,48 @@
             let limit = 5;
             let step = 5;
 
+            document.addEventListener('DOMContentLoaded', function() {
+                sortThreads();
+            });
+
             function showMoreResults() {
-                // Seleziona tutti gli elementi nascosti
                 let hiddenItems = document.querySelectorAll('.hidden');
 
-                // Mostra il prossimo gruppo di elementi
                 for (let i = 0; i < step && i < hiddenItems.length; i++) {
                     hiddenItems[i].classList.remove('hidden');
                 }
 
-                // Nascondi il bottone se non ci sono più elementi da mostrare
                 if (hiddenItems.length <= step) {
                     document.getElementById('showMoreBtn').style.display = 'none';
                 }
             }
 
             function sortThreads() {
-                var order = document.getElementById("sortOrder").value;
-                var threadsArray = Array.from(document.querySelectorAll(".thread-list"));
+                let order = document.getElementById("sortOrder").value;
+                let threadsArray = Array.from(document.querySelectorAll(".thread-list"));
 
                 threadsArray.sort(function(a, b) {
-                    var titleA = a.querySelector(".thread-link").textContent.toLowerCase();
-                    var titleB = b.querySelector(".thread-link").textContent.toLowerCase();
-                    var timestampA = new Date(a.querySelector(".thread-item:nth-child(3)").textContent);
-                    var timestampB = new Date(b.querySelector(".thread-item:nth-child(3)").textContent);
+                    let titleA = a.querySelector(".thread-item-title").textContent.toLowerCase();
+                    let titleB = b.querySelector(".thread-item-title").textContent.toLowerCase();
+                    let timestampA = new Date(a.querySelector(".threadCreationLocalDateTimestamp").textContent);
+                    let timestampB = new Date(b.querySelector(".threadCreationLocalDateTimestamp").textContent);
 
                     if (order === "newest") {
-                        return timestampB - timestampA; // Ordinamento per data (nuovo a vecchio)
+                        return timestampB - timestampA;
                     } else if (order === "oldest") {
-                        return timestampA - timestampB; // Ordinamento per data (vecchio a nuovo)
+                        return timestampA - timestampB;
                     } else if (order === "title") {
-                        return titleA.localeCompare(titleB); // Ordinamento alfabetico
+                        return titleA.localeCompare(titleB);
                     }
                 });
 
                 // Rimuovi gli elementi esistenti e riaggiungi in ordine
-                var container = document.querySelector("div"); // Assume che i thread siano in un div specifico
+                let container = document.getElementById("threadContainer");
                 threadsArray.forEach(function(thread) {
                     container.appendChild(thread); // Riaggiungi l'elemento ordinato
                 });
             }
+
 
             function sendThreadId(threadId){
                 document.getElementById("threadId").value = threadId;
@@ -66,8 +68,12 @@
                             <h1 class="club-title">${club.clubName}</h1>
                             <hr>
                             <div class="club-info">
-                                <span class="subtitle">Data di Creazione: <br>${threadFormattedCreationTimestamp}</span>
-                                <span class="subtitle">Moderatore: <br>${threadFormattedCreationTimestamp}</span>
+                                <span class="subtitle">Data di Creazione: ${clubFormattedCreationTimestamp}</span>
+                                <span class="subtitle">Moderatori:
+                                    <c:forEach var="moderator" items="${clubMods}">
+                                         ${moderator.username}
+                                    </c:forEach>
+                                </span>
                             </div>
                             <hr>
                             <div class="club-text">
@@ -82,7 +88,6 @@
                     <h2> discussioni del club </h2>
                     <div>
                         <div>
-                            <!-- Filtri -->
                             <label for="categoryFilter">Filtra per categoria:</label>
                             <select id="categoryFilter" onchange="filterThreads()">
                                 <option value="all">Tutte le categorie</option>
@@ -92,50 +97,74 @@
                             </select>
                             <label for="sortOrder">Ordina per:</label>
                             <select id="sortOrder" onchange="sortThreads()">
-                                <option value="newest">Più recenti</option>
+                                <option value="newest" selected>Più recenti</option>
                                 <option value="oldest">Più vecchi</option>
                                 <option value="title">Titolo</option>
                             </select>
                         </div>
-                        <c:set var="limit" value="2"/>
-                        <c:set var="count" value="0"/>
-                        <c:forEach var="thread" items="${threadsList}">
-                            <c:if test="${count < limit}">
-                                <ul class="thread-item-container" onclick="sendThreadId('${thread.threadId}');">
-                                    <li class="thread-item">
-                                        <span>Titolo: </span>
-                                        <span class="thread-item-title">${thread.title}</span>
-                                    </li>
-                                    <hr>
-                                    <li class="thread-item">
-                                        <span class="subtitle">Categoria: </span>
-                                            ${thread.category}
-                                    </li>
-                                    <li class="thread-item">
-                                        <span class="subtitle">Data di Creazione: </span>
-                                            ${thread.creationTimestamp}
-                                    </li>
-                                </ul>
-                            </c:if>
-                            <c:if test="${count >= limit}"> <!--risultati nascosti -->
-                                <ul class="thread-item-container hidden" onclick="sendThreadId('${thread.threadId}');">
-                                    <li class="thread-item">
-                                        <span>Titolo: </span>
-                                        <span class="thread-item-title">${thread.title}</span>
-                                    </li>
-                                    <hr>
-                                    <li class="thread-item">
-                                        <span class="subtitle">Categoria: </span>
-                                            ${thread.category}
-                                    </li>
-                                    <li class="thread-item">
-                                        <span class="subtitle">Data di Creazione: </span>
-                                            ${thread.creationTimestamp}
-                                    </li>
-                                </ul>
-                            </c:if>
-                            <c:set var="count" value="${count + 1}" />
-                        </c:forEach>
+                        <div id="threadContainer">
+                            <c:set var="limit" value="2"/>
+                            <c:set var="count" value="0"/>
+                            <c:forEach var="thread" items="${threadsList}" varStatus="status">
+                                <c:if test="${count < limit}">
+                                    <ul class="thread-item-container thread-list" onclick="sendThreadId('${thread.threadId}');">
+                                        <li class="thread-item">
+                                            <span>Titolo: </span>
+                                            <span class="thread-item-title">${thread.title}</span>
+                                        </li>
+                                        <hr>
+                                        <li class="thread-item">
+                                            <span class="subtitle">Categoria: </span>
+                                                ${thread.category}
+                                        </li>
+                                        <li class="thread-item">
+                                            <span class="subtitle ">Data di Creazione: </span>
+                                            <span class="threadCreationLocalDateTimestamp">${threadsformattedCreationTimestamps[status.index]}</span>
+                                        </li>
+                                        <li class="thread-item">
+                                            <span class="subtitle ">Numero di risposte: </span>
+                                            <span class="threadMessageCount">${threadsTotalMessages[status.index]}</span>
+                                        </li>
+                                        <c:forEach var="moderator" items="${clubMods}">
+                                            <c:if test="${loggedUser.userType == 'admin' || (loggedUser.userType == 'moderator' && (loggedUser.userId == moderator.userId) )}">
+                                                <div class="right">
+                                                    <img class="delete-icon icon" style="margin-bottom: 4px; z-index: 10;" onclick="event.stopPropagation(); deleteThread(${thread.threadId});" src="<%=contextPath%>/assets/images/delete.png">
+                                                </div>
+                                            </c:if>
+                                        </c:forEach>
+                                    </ul>
+                                </c:if>
+                                <c:if test="${count >= limit}">
+                                    <ul class="hidden thread-item-container thread-list" onclick="sendThreadId('${thread.threadId}');">
+                                        <li class="thread-item">
+                                            <span>Titolo: </span>
+                                            <span class="thread-item-title">${thread.title}</span>
+                                        </li>
+                                        <hr>
+                                        <li class="thread-item">
+                                            <span class="subtitle">Categoria: </span>
+                                                ${thread.category}
+                                        </li>
+                                        <li class="thread-item">
+                                            <span class="subtitle">Data di Creazione: </span>
+                                            <span class="threadCreationLocalDateTimestamp">${threadsformattedCreationTimestamps[status.index]}</span>
+                                        </li>
+                                        <li class="thread-item">
+                                            <span class="subtitle ">Numero di risposte: </span>
+                                            <span class="threadMessageCount">${threadsTotalMessages[status.index]}</span>
+                                        </li
+                                        <c:forEach var="moderator" items="${clubMods}">
+                                            <c:if test="${loggedUser.userType == 'admin' || (loggedUser.userType == 'moderator' && (loggedUser.userId == moderator.userId) )}">
+                                                <div class="right">
+                                                    <img class="delete-icon icon" style="margin-bottom: 4px; z-index: 10;" onclick="event.stopPropagation(); deleteThread(${thread.threadId});" src="<%=contextPath%>/assets/images/delete.png">
+                                                </div>
+                                            </c:if>
+                                        </c:forEach>
+                                    </ul>
+                                </c:if>
+                                <c:set var="count" value="${count + 1}" />
+                            </c:forEach>
+                        </div>
                         <br class="hidden">
                     </div>
                     <button id="showMoreBtn" onclick="showMoreResults()">Mostra di più</button>
@@ -148,6 +177,7 @@
         <%@include file="/include/footer.inc"%>
         <form id="threadForm" name="threadForm" action="Dispatcher" method="post">
             <input type="hidden" id="threadId" name="threadId" value="-1"/>
+            <input type="hidden" id="clubId" name="clubId" value="${club.clubId}"/>
             <input type="hidden" name="controllerAction" value="ThreadManagement.viewThread"/>
         </form>
     </body>

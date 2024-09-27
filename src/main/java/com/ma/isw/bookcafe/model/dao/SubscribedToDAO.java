@@ -7,13 +7,15 @@ import com.ma.isw.bookcafe.model.mo.SubscribedTo;
 
 public interface SubscribedToDAO {
 
-    public void addSubscription(int clubId, int userId, Date clubSubscriptionDate);
+    void addSubscription(int clubId, int userId, Date clubSubscriptionDate);
 
-    public void deleteSubscription(int clubId, int userId);
+    void deleteSubscription(int clubId, int userId);
 
-    public List<SubscribedTo> getAllSubscriptions();
+    List<SubscribedTo> getAllSubscriptions();
 
-    public List<SubscribedTo> getSubscriptionsByUserId(int userId);
+    int countTotalSubscriptions();
 
-    public List<SubscribedTo> getSubscriptionsByClubId(int clubId);
+    List<SubscribedTo> getSubscriptionsByUserId(int userId);
+
+    List<SubscribedTo> getSubscriptionsByClubId(int clubId);
 }

@@ -2,6 +2,7 @@ package com.ma.isw.bookcafe.controller;
 
 import com.ma.isw.bookcafe.model.dao.ClubDAO;
 import com.ma.isw.bookcafe.model.dao.DAOFactory;
+import com.ma.isw.bookcafe.model.dao.ModeratorDAO;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
 import com.ma.isw.bookcafe.model.mo.Club;
 import com.ma.isw.bookcafe.model.mo.User;
@@ -10,11 +11,16 @@ import com.ma.isw.bookcafe.services.logservice.LogService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import static com.ma.isw.bookcafe.controller.UserAccessManagement.formatLocalDateTime;
 
 public class ClubManagement {
 
@@ -97,6 +103,11 @@ public class ClubManagement {
             ClubDAO clubDAO = daoFactory.getClubDAO();
             Club club = clubDAO.getClubById(Integer.parseInt(request.getParameter("clubId")));
 
+            ModeratorDAO moderatorDAO = daoFactory.getModeratorDAO();
+            List <User> clubMods = moderatorDAO.getModeratorsByClubId(club.getClubId());
+
+            // TODO getClubEvents
+
             sessionDAOFactory.commitTransaction();
             daoFactory.commitTransaction();
 
@@ -105,6 +116,8 @@ public class ClubManagement {
             request.setAttribute("club", club);
             request.setAttribute("loggedOn",loggedUser!=null);
             request.setAttribute("loggedUser", loggedUser);
+            request.setAttribute("clubMods", clubMods);
+            request.setAttribute("clubFormattedCreationTimestamp", formatLocalDate(club.getCreationDate()));
             request.setAttribute("menuActiveLink", "Club: " + club.getClubName());
             request.setAttribute("viewUrl", "clubManagement/clubView");
         } catch (Exception e) {
@@ -121,5 +134,10 @@ public class ClubManagement {
             } catch (Throwable t) {
             }
         }
+    }
+
+    public static String formatLocalDate(LocalDate localDateTimeToFormat) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return localDateTimeToFormat.format(formatter);
     }
 }

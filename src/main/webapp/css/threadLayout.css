@@ -62,17 +62,30 @@
     transform: scale(1.1) translate(0%, 45%);
 }
 
-.delete-icon{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
     cursor: pointer;
-    transform: translate(0%, 50%);
-    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.link:visited {
+    color: #9b59b6;
+}
+
+.link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.link:focus {
+    outline: 2px dashed #2980b9;
+    outline-offset: 2px;
 }
 
 .thread-title{
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 0;
 }
 

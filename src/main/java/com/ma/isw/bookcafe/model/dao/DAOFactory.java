@@ -18,7 +18,6 @@ public abstract class DAOFactory {
 
     public abstract UserDAO getUserDAO();
     public abstract ModeratorDAO getModeratorDAO();
-    public abstract AdministratorDAO getAdministratorDAO();
     public abstract BookDAO getBookDAO();
     public abstract ClubDAO getClubDAO();
     public abstract EventDAO getEventDAO();

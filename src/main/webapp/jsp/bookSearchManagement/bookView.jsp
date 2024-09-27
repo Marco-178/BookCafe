@@ -135,7 +135,7 @@
                         <c:forEach var="review" items="${reviews}" varStatus="status">
                             <article class="review-card">
                                 <c:set var="reviewer" value="${reviewers[status.index]}" />
-                                <img class="reviewer-image" src="<%=contextPath%>${reviewer.urlProfilePicture}" alt="image of user: ${reviewer.username}" onclick="location.href='javascript:toReviewerProfile(${reviewer.userId});'">
+                                <img class="reviewer-image" src="<%=contextPath%>${reviewer.urlProfilePicture}" alt="image of user: ${reviewer.username}" onclick="toReviewerProfile(${reviewer.userId});">
                                 <div>
                                     <div style="max-height: 40px">
                                         <c:choose>
@@ -165,7 +165,7 @@
                                                 <button class="edit-review-button open-button" onclick="modifyReview(${review.reviewId}, '${fn:escapeXml(review.testo)}');"> Modifica </button>
                                             </c:if>
                                             <c:if test="${loggedOn && (loggedUserReviewId == review.reviewId || loggedUser.userType == 'admin' || loggedUser.userType == 'moderator')}">
-                                                <button class="delete-review-button" onclick="location.href='javascript:removeReview(${review.reviewId});'"> Elimina </button>
+                                                <button class="delete-review-button" onclick="removeReview(${review.reviewId});"> Elimina </button>
                                             </c:if>
                                         </div>
                                 </div>
@@ -212,7 +212,7 @@
                     <textarea id="reviewText" required></textarea>
                     <br>
                     <button style="display: inline-block;" class="close-button">Chiudi</button>
-                    <button style="display: inline-block; justify-content: end;" type="submit" onclick="location.href='javascript:sendReview_BookViewInfo(${book.ISBN});';">Invia</button>
+                    <button style="display: inline-block; justify-content: end;" type="submit" onclick="sendReview_BookViewInfo(${book.ISBN});">Invia</button>
                 </form>
             </div>
         </div>

@@ -36,7 +36,7 @@
                 <section class="book-grid">
                     <c:forEach var="libro" items="${books}">
                         <article class="card stacked-card featured">
-                            <div class="card__content" onclick="location.href='javascript:sendBookISBN(${libro.ISBN});';" style="cursor: pointer;">
+                            <div class="card__content" onclick="sendBookISBN(${libro.ISBN});" style="cursor: pointer;">
                                 <img class="card__img" src="<%=contextPath%>${libro.urlBookcoverImage}" alt="image of book ${libro.title}">
                                 <h2 class="card_title">${libro.title}</h2>
                                 <p class="card__desc">${libro.description}</p>

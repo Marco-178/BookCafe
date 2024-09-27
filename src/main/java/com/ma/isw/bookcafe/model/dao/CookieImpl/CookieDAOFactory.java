@@ -47,11 +47,6 @@ public class CookieDAOFactory extends DAOFactory {
     }
 
     @Override
-    public AdministratorDAO getAdministratorDAO() {
-        throw new UnsupportedOperationException("Not supported");
-    }
-
-    @Override
     public BookDAO getBookDAO() {
         throw new UnsupportedOperationException("Not supported");
     }

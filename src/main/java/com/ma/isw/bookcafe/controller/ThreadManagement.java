@@ -1,9 +1,6 @@
 package com.ma.isw.bookcafe.controller;
 
-import com.ma.isw.bookcafe.model.dao.ThreadDAO;
-import com.ma.isw.bookcafe.model.dao.UserDAO;
-import com.ma.isw.bookcafe.model.dao.DAOFactory;
-import com.ma.isw.bookcafe.model.dao.MessageDAO;
+import com.ma.isw.bookcafe.model.dao.*;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.model.mo.Thread;
 import com.ma.isw.bookcafe.model.mo.Message;
@@ -11,9 +8,11 @@ import com.ma.isw.bookcafe.services.config.Configuration;
 import com.ma.isw.bookcafe.services.logservice.LogService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.eclipse.tags.shaded.org.apache.xalan.templates.NamespaceAlias;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -45,6 +44,11 @@ public class ThreadManagement {
 
             ThreadDAO threadDAO = daoFactory.getThreadDAO();
             threads = threadDAO.getAllThreads(clubId);
+            List<String> threadsformattedCreationTimestamps = threadDAO.getThreadsFormattedCreationTimestamps(threads);
+
+            // TODO getThreadsTotalMessages
+
+            List<Integer> threadsTotalMessages = ThreadManagement.getThreadsTotalMessages(threadDAO, threads);
 
             UserDAO userDAO = daoFactory.getUserDAO();
             users = userDAO.getAllUsers();
@@ -52,6 +56,8 @@ public class ThreadManagement {
             daoFactory.commitTransaction();
 
             request.setAttribute("threadsList", threads);
+            request.setAttribute("threadsTotalMessages", threadsTotalMessages);
+            request.setAttribute("threadsformattedCreationTimestamps", threadsformattedCreationTimestamps);
             request.setAttribute("usersList", users);
 
         } catch (Exception e) {
@@ -69,6 +75,15 @@ public class ThreadManagement {
             }
         }
 
+    }
+
+    private static List<Integer> getThreadsTotalMessages(ThreadDAO threadDAO, List<Thread> threads) {
+        List<Integer> threadsTotalMessages = new ArrayList<>();
+        for (Thread thread : threads) {
+            int messageCount = threadDAO.countTotalMessages(thread.getThreadId());
+            threadsTotalMessages.add(messageCount);
+        }
+        return threadsTotalMessages;
     }
 
     public static void viewThread(HttpServletRequest request, HttpServletResponse response) {
@@ -105,6 +120,10 @@ public class ThreadManagement {
             List<String> formattedCreationTimestamps = threadDAO.getFormattedCreationTimestamps(messages);
             User threadUser = userDAO.getUserById(thread.getUserId());
 
+            int clubId = Integer.parseInt((String)request.getParameter("clubId"));
+            ModeratorDAO moderatorDAO = daoFactory.getModeratorDAO();
+            List <User> clubMods = moderatorDAO.getModeratorsByClubId(clubId);
+
             sessionDAOFactory.commitTransaction();
             daoFactory.commitTransaction();
 
@@ -114,9 +133,11 @@ public class ThreadManagement {
             request.setAttribute("threadUser", threadUser);
             request.setAttribute("messages", messages);
             request.setAttribute("chatters", chatters);
+            request.setAttribute("clubMods", clubMods);
             request.setAttribute("formattedLastReply", formatLocalDateTime(thread.getTimestampLastReply()));
             request.setAttribute("threadFormattedCreationTimestamp", formatLocalDateTime(thread.getCreationTimestamp()));
             request.setAttribute("formattedCreationTimestamps", formattedCreationTimestamps);
+            request.setAttribute("clubId", clubId);
             request.setAttribute("menuActiveLink", "Discussione: " + thread.getTitle());
             request.setAttribute("viewUrl", "threadManagement/threadView");
         } catch (Exception e) {
@@ -173,6 +194,8 @@ public class ThreadManagement {
 
             ThreadDAO threadDAO = daoFactory.getThreadDAO();
             Thread thread = threadDAO.getThreadById(threadId);
+
+            // TODO aggiornare lastReply del thread
 
             UserDAO userDAO = daoFactory.getUserDAO();
             chatters = userDAO.getChatters(messages);

@@ -19,5 +19,9 @@ public interface ThreadDAO {
 
     public List<Thread> getAllThreads(int clubId);
 
+    int countTotalMessages(int threadId);
+
     List<String> getFormattedCreationTimestamps(List<Message> messages);
+
+    List<String> getThreadsFormattedCreationTimestamps(List<Thread> threads);
 }

@@ -70,12 +70,7 @@ public class PSQLJDBCDAOFactory extends DAOFactory {
 
     @Override
     public ModeratorDAO getModeratorDAO() {
-        return null;
-    }
-
-    @Override
-    public AdministratorDAO getAdministratorDAO() {
-        return null;
+        return new ModeratorDAOPSQLJDBCImpl(connection);
     }
 
     @Override

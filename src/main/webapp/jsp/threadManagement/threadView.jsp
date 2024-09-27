@@ -43,16 +43,23 @@
                 document.toChatterProfile.profileId.value = selectedUserId;
                 document.toChatterProfile.submit();
             }
+
+            function sendClubId(club_id){
+                console.log("id:",club_id);
+                document.clubView.clubId.value = club_id;
+                document.clubView.submit();
+            }
         </script>
     </head>
     <body>
         <%@include file="/include/header.inc"%>
         <main class="container">
+            <a class="link" style="margin-left: 5%; margin-top: 20px; display:inline-block" onclick="sendClubId(${clubId})"> &#x2B05 Torna al club</a>
             <div class="main-content">
                 <section>
                     <h1 class="first-content thread-title">${thread.title}</h1>
                     <article>
-                        <img class="threadUser-image" src="<%=contextPath%>${threadUser.urlProfilePicture}" alt="image of user: ${threadUser.username}" onclick="location.href='javascript:toChatterProfile(${threadUser.userId});'">
+                        <img class="threadUser-image" src="<%=contextPath%>${threadUser.urlProfilePicture}" alt="image of user: ${threadUser.username}" onclick="toChatterProfile(${threadUser.userId});">
                         <span>${threadUser.username}</span>
                         <div class="thread-card">
                             <div class="thread-content">
@@ -75,17 +82,19 @@
                         <c:forEach var="message" items="${messages}" varStatus="status"> <!-- TODO visualizzare i primi tot risultati e continuare solo per esplicita richiesta utente -->
                             <c:set var="chatter" value="${chatters[status.index]}"/>
                             <article>
-                                <img class="chatter-image" src="<%=contextPath%>${chatter.urlProfilePicture}" alt="image of user: ${chatter.username}" onclick="location.href='javascript:toChatterProfile(${chatter.userId});'">
+                                <img class="chatter-image" src="<%=contextPath%>${chatter.urlProfilePicture}" alt="image of user: ${chatter.username}" onclick="toChatterProfile(${chatter.userId});">
                                 <span style="margin-left: 1%">${chatter.username}</span>
                                 <div class="message-card">
                                     <div class="message-content">
                                         <div class="message-info">
                                             <span class="subtitle"> Data di Creazione: ${formattedCreationTimestamps[status.index]}</span>
-                                            <c:if test="${loggedUser.userType == 'admin' || loggedUser.userType == 'moderator' || (loggedUser.userId == message.userId)}">
-                                                <div class="right">
-                                                    <img class="delete-icon icon" onclick="location.href='javascript:deleteComment(${message.messageId});';" src="<%=contextPath%>/assets/images/delete.png">
-                                                </div>
-                                            </c:if>
+                                            <c:forEach var="moderator" items="${clubMods}">
+                                                <c:if test="${loggedUser.userType == 'admin' || (loggedUser.userId == message.userId) || (loggedUser.userType == 'moderator' && (loggedUser.userId == moderator.userId) )}">
+                                                    <div class="right">
+                                                        <img class="delete-icon icon" onclick="deleteComment(${message.messageId});" src="<%=contextPath%>/assets/images/delete.png">
+                                                    </div>
+                                                </c:if>
+                                            </c:forEach>
                                         </div>
                                         <hr>
                                         <div class="message-text">
@@ -107,7 +116,7 @@
         <dialog id="messageDialog" class="modal dialog-card">
             <div class="dialog-flex">
                 <div>
-                    <img class="chatter-image" src="<%=contextPath%>${loggedUser.urlProfilePicture}" alt="image of your profile" onclick="location.href='javascript:toChatterProfile(${loggedUser.userId});'">
+                    <img class="chatter-image" src="<%=contextPath%>${loggedUser.urlProfilePicture}" alt="image of your profile" onclick="toChatterProfile(${loggedUser.userId});">
                 </div>
                 <div>
                     <h2>Lascia un commento</h2>
@@ -117,7 +126,7 @@
                         <textarea id="commentTextArea" name="commentTextArea" required></textarea>
                         <br>
                         <button style="display: inline-block;" class="close-button">Chiudi</button>
-                        <button style="display: inline-block; justify-content: end;" type="button" onclick="location.href='javascript:sendComment();';">Invia</button>
+                        <button style="display: inline-block; justify-content: end;" type="button" onclick="sendComment();">Invia</button>
                     </form>
                 </div>
             </div>
@@ -136,6 +145,10 @@
 
         <form name="toChatterProfile" method="post" action="Dispatcher?controllerAction=UserAccessManagement.viewProfile">
             <input type="hidden" name="profileId">
+        </form>
+
+        <form name="clubView" method="post" action="Dispatcher?controllerAction=ClubManagement.viewClub">
+            <input type="hidden" name="clubId"/>
         </form>
     </body>
 </html>

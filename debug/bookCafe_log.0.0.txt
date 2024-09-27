@@ -13568,3 +13568,706 @@ set 27, 2024 10:50:56 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processReques
 INFO: ClubManagement viewClubsList
 set 27, 2024 10:50:58 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
 INFO: ClubManagement viewClub
+set 27, 2024 10:53:46 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 10:53:48 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 10:55:44 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 10:55:46 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 10:55:59 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 10:56:05 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 10:56:21 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 10:56:28 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 10:57:02 AM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 12:30:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 12:30:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 12:30:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 12:30:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 12:30:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 12:30:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 12:31:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 12:53:53 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 12:53:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 12:53:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 12:54:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 12:55:30 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 12:55:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 12:58:06 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 12:58:06 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 12:58:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 12:58:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 12:58:30 PM com.ma.isw.bookcafe.controller.ClubManagement viewClub
+SEVERE: Controller Error
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.ma.isw.bookcafe.controller.ClubManagement.viewClub(ClubManagement.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:64)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:107)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+set 27, 2024 1:05:49 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:05:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:07:30 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:07:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:07:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:07:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:12:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:12:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:15:18 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:15:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:16:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:16:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:22:35 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:22:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:30:54 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:30:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:33:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:33:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:33:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 1:37:38 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:37:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:37:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:37:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:37:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 1:38:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:38:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:38:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 1:39:50 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 1:39:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 1:39:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:39:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 1:40:04 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 1:40:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 1:40:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement writeComment
+set 27, 2024 1:59:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 1:59:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:40:40 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 2:40:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 2:40:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 2:40:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:40:47 PM com.ma.isw.bookcafe.controller.ThreadManagement viewThreadsList
+SEVERE: Controller Error
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.getAllUsers(UserDAOPSQLJDBCImpl.java:261)
+	at com.ma.isw.bookcafe.controller.ThreadManagement.viewThreadsList(ThreadManagement.java:54)
+	at com.ma.isw.bookcafe.controller.ClubManagement.viewClub(ClubManagement.java:114)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:64)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:107)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRORE: la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.getAllUsers(UserDAOPSQLJDBCImpl.java:252)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: ERRORE: la relazione "messages" non esiste
+  Posizione: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.ThreadDAOPSQLJDBCImpl.countTotalMessages(ThreadDAOPSQLJDBCImpl.java:98)
+	at com.ma.isw.bookcafe.controller.ThreadManagement.getThreadsTotalMessages(ThreadManagement.java:83)
+	at com.ma.isw.bookcafe.controller.ThreadManagement.viewThreadsList(ThreadManagement.java:51)
+	... 29 more
+
+set 27, 2024 2:40:47 PM com.ma.isw.bookcafe.controller.ClubManagement viewClub
+SEVERE: Controller Error
+java.lang.RuntimeException: java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+	at com.ma.isw.bookcafe.controller.ThreadManagement.viewThreadsList(ThreadManagement.java:69)
+	at com.ma.isw.bookcafe.controller.ClubManagement.viewClub(ClubManagement.java:114)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:64)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:107)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: org.postgresql.util.PSQLException: ERRORE: la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.getAllUsers(UserDAOPSQLJDBCImpl.java:261)
+	at com.ma.isw.bookcafe.controller.ThreadManagement.viewThreadsList(ThreadManagement.java:54)
+	... 29 more
+Caused by: org.postgresql.util.PSQLException: ERRORE: la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.UserDAOPSQLJDBCImpl.getAllUsers(UserDAOPSQLJDBCImpl.java:252)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: ERRORE: la relazione "messages" non esiste
+  Posizione: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl.ThreadDAOPSQLJDBCImpl.countTotalMessages(ThreadDAOPSQLJDBCImpl.java:98)
+	at com.ma.isw.bookcafe.controller.ThreadManagement.getThreadsTotalMessages(ThreadManagement.java:83)
+	at com.ma.isw.bookcafe.controller.ThreadManagement.viewThreadsList(ThreadManagement.java:51)
+	... 29 more
+
+set 27, 2024 2:42:28 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 2:42:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 2:42:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 2:42:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:42:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:43:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:43:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement writeComment
+set 27, 2024 2:43:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 2:43:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:49:07 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 2:49:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 2:50:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 2:50:11 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:50:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:50:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:50:18 PM com.ma.isw.bookcafe.controller.ClubManagement viewClub
+SEVERE: Controller Error
+java.lang.NumberFormatException: For input string: "undefined"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:661)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.ma.isw.bookcafe.controller.ClubManagement.viewClub(ClubManagement.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.processRequest(Dispatcher.java:64)
+	at com.ma.isw.bookcafe.dispatcher.Dispatcher.doPost(Dispatcher.java:107)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+set 27, 2024 2:53:54 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 2:53:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 2:53:59 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 2:54:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:54:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:54:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:57:24 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:57:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:57:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:57:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:58:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:58:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:58:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 2:58:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:59:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 2:59:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:00:04 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:00:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:00:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:01:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:03:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:03:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:03:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:03:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:04:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:05:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:06:19 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:07:16 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:07:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:08:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:09:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:09:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:09:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:09:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:09:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:09:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:17:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:17:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:17:36 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:17:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:17:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:17:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement writeComment
+set 27, 2024 3:18:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:18:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:18:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:18:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement writeComment
+set 27, 2024 3:19:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:19:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:19:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:22:07 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 3:22:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 3:35:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:35:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:35:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:35:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:35:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 3:35:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:35:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:35:50 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:36:24 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:36:30 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:36:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:36:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:37:10 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 3:37:10 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 3:37:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:37:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:37:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:37:26 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:37:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:37:44 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:37:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:38:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:38:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:39:03 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:39:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:39:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:39:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logout
+set 27, 2024 3:39:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+set 27, 2024 3:39:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+set 27, 2024 3:39:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:39:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:39:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:40:33 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 3:40:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 3:40:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:40:41 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:40:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:40:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:41:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement writeComment
+set 27, 2024 3:41:54 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:41:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:41:57 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:42:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:42:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:42:05 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:42:07 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logout
+set 27, 2024 3:42:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement viewLogin
+set 27, 2024 3:42:12 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: UserAccessManagement logon
+set 27, 2024 3:42:14 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:42:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:42:25 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:55:28 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 3:55:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 3:55:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 3:55:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:55:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:55:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:55:45 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:55:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 3:55:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 3:55:59 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:01:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:01:20 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:01:23 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:01:26 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:08:13 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 4:08:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 4:09:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:09:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:13:31 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:17:37 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:17:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:17:40 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: EventManagement viewEventsList
+set 27, 2024 4:17:42 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:17:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:18:29 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:18:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:18:55 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:19:17 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:20:28 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 4:20:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 4:20:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:20:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:20:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:22:46 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:24:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:24:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:24:47 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:24:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:24:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:25:08 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:25:13 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:26:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:26:33 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:28:22 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:28:58 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:30:38 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:30:43 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:30:49 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:31:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:31:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:32:39 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:33:27 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:38:56 PM com.ma.isw.bookcafe.services.logservice.LogService getApplicationLogger
+CONFIG: Logger: bookCafe created.
+set 27, 2024 4:38:56 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 4:39:00 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:39:02 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:39:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:39:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:39:18 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:43:53 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:43:59 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:44:15 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:44:21 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:44:35 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:45:09 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:45:28 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:45:32 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ThreadManagement viewThread
+set 27, 2024 4:47:01 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:52:48 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: HomeManagement view
+set 27, 2024 4:52:51 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClubsList
+set 27, 2024 4:52:52 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub
+set 27, 2024 4:58:34 PM com.ma.isw.bookcafe.dispatcher.Dispatcher processRequest
+INFO: ClubManagement viewClub

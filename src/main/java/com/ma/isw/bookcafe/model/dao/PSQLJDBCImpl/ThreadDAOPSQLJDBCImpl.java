@@ -85,12 +85,41 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
         }
         return threads;
     }
+    @Override
+    public int countTotalMessages(int threadId) {
+        int messageCount = 0;
+        PreparedStatement ps;
+        String sql = "SELECT COUNT(*) FROM user_message WHERE thread_id = ? AND deleted = false";
+
+        try {
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, threadId); // Imposta il threadId nella query
+
+            ResultSet resultSet = ps.executeQuery();
+            if (resultSet.next()) {
+                messageCount = resultSet.getInt(1); // Ottiene il conteggio dei messaggi
+            }
+        } catch (SQLException e) {
+            e.printStackTrace(); // Gestisci eventuali eccezioni
+        }
+
+        return messageCount; // Restituisce il numero totale di messaggi
+    }
+
 
     @Override
     public List<String> getFormattedCreationTimestamps(List<Message> messages) {
         List<String> formattedCreationTimestamps = new ArrayList<>();
         for(Message message : messages){
             formattedCreationTimestamps.add(formatLocalDateTime(message.getCreationTimestamp()));
+        }
+        return formattedCreationTimestamps;
+    }
+
+    public List<String> getThreadsFormattedCreationTimestamps(List<Thread> threads) {
+        List<String> formattedCreationTimestamps = new ArrayList<>();
+        for(Thread thread : threads){
+            formattedCreationTimestamps.add(formatLocalDateTime(thread.getCreationTimestamp()));
         }
         return formattedCreationTimestamps;
     }

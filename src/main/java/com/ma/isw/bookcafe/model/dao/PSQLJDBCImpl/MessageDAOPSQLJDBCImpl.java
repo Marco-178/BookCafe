@@ -60,7 +60,7 @@ public class MessageDAOPSQLJDBCImpl implements MessageDAO {
         PreparedStatement ps = null;
 
         try {
-            String sql = "DELETE FROM user_message WHERE message_id = ?";
+            String sql = "UPDATE user_message SET deleted = true WHERE message_id = ?";
             ps = conn.prepareStatement(sql);
             ps.setInt(1, messageId);
 
@@ -71,9 +71,18 @@ public class MessageDAOPSQLJDBCImpl implements MessageDAO {
             }
 
         } catch (SQLException e) {
-            throw new RuntimeException("Errore durante l'eliminazione del messaggio dal database", e);
+            throw new RuntimeException("Errore durante l'aggiornamento del messaggio nel database", e);
+        } finally {
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
+
 
     @Override
     public Message getMessageById(int messageId) {
@@ -86,7 +95,7 @@ public class MessageDAOPSQLJDBCImpl implements MessageDAO {
         PreparedStatement ps = null;
         ResultSet rs = null;
         try{
-            String sql = "SELECT * FROM user_message where thread_id=?";
+            String sql = "SELECT * FROM user_message where thread_id=? AND deleted = false";
 
             ps = conn.prepareStatement(sql);
             ps.setInt(1, threadId);
