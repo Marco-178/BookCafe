@@ -21,7 +21,6 @@
         document.addEventListener("DOMContentLoaded", function() {
             const editProfileButton = document.querySelector(".edit-profile-button");
             if(loggedUser.userType === 'admin'){
-                console.log(loggedUser.userType);
                 const formAdminElements = document.querySelectorAll('.formAdmin');
                 const formAdminSubmit = document.getElementById('submit');
                 formAdminElements.forEach(el => {
@@ -202,14 +201,19 @@
                                     <span  class="subtitle">Ruolo utente</span>
                                     <br>
                                     <span class="info form">${viewedUser.userType}</span>
-                                    <c:if test="${loggedUser.userType == 'admin'}">
-                                        <select class="form box formAdmin" id="userType" name="userType" style="display:none;" required>
-                                            <option value="${viewedUser.userType}" selected>${viewedUser.userType}</option>
-                                            <option value="admin">admin</option>
-                                            <option value="normal">normal</option>
-                                            <option value="moderator">moderator</option>
-                                        </select>
-                                    </c:if>
+                                    <c:choose>
+                                        <c:when test="${loggedUser.userType == 'admin'}">
+                                            <select class="form box formAdmin" id="userType" name="userType" style="display:none;">
+                                                <option value="${viewedUser.userType}" selected>${viewedUser.userType}</option>
+                                                <option value="admin">admin</option>
+                                                <option value="normal">normal</option>
+                                                <option value="moderator">moderator</option>
+                                            </select>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <input type="hidden" id="userType" name="userType" value="${viewedUser.userType}">
+                                        </c:otherwise>
+                                    </c:choose>
                                 </li>
                                 <li>
                                     <span  class="subtitle">biografia</span>

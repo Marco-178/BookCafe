@@ -195,6 +195,17 @@ main {
     display: inline-block;
 }
 
+.right{
+    margin-left: auto;
+    width: fit-content;
+}
+
+.subtitle {
+    color: gray;
+    font-weight: normal;
+    font-size: medium;
+}
+
 footer {
     text-align:right;
     font-size:14px;

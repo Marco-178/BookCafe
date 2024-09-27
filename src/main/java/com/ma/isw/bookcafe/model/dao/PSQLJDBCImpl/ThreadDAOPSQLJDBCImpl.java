@@ -2,6 +2,7 @@ package com.ma.isw.bookcafe.model.dao.PSQLJDBCImpl;
 
 import com.ma.isw.bookcafe.model.dao.ThreadDAO;
 import com.ma.isw.bookcafe.model.dao.exception.NoThreadFoundException;
+import com.ma.isw.bookcafe.model.mo.Message;
 import com.ma.isw.bookcafe.model.mo.Thread;
 
 import java.sql.*;
@@ -9,6 +10,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import static com.ma.isw.bookcafe.controller.UserAccessManagement.formatLocalDateTime;
 
 
 public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
@@ -81,6 +84,15 @@ public class ThreadDAOPSQLJDBCImpl implements ThreadDAO {
             throw new RuntimeException(e);
         }
         return threads;
+    }
+
+    @Override
+    public List<String> getFormattedCreationTimestamps(List<Message> messages) {
+        List<String> formattedCreationTimestamps = new ArrayList<>();
+        for(Message message : messages){
+            formattedCreationTimestamps.add(formatLocalDateTime(message.getCreationTimestamp()));
+        }
+        return formattedCreationTimestamps;
     }
 
     private Thread readThread(ResultSet rs, int threadId) throws SQLException {

@@ -32,12 +32,6 @@
     object-fit: cover;
 }
 
-.subtitle {
-    color: gray;
-    font-weight: normal;
-    font-size: medium;
-}
-
 .edit-profile-button {
     display: inline-block;
     padding: 0 30px;
@@ -74,11 +68,6 @@
     background-color: #AF6565;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
-}
-
-.right{
-    margin-left: auto;
-    width: fit-content;
 }
 
 .box{

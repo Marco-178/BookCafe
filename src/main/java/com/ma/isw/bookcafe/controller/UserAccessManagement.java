@@ -423,7 +423,8 @@ public class UserAccessManagement {
                 loggedUser.setNation((String) request.getAttribute("nation"));
                 loggedUser.setCity((String) request.getAttribute("city"));
                 if (isPictureUploaded) loggedUser.setUrlProfilePicture(filePathInDB);
-                loggedUser.setUserType((String) request.getAttribute("userType"));
+                String userType = (String) request.getAttribute("userType");
+                if (userType != null) loggedUser.setUserType(userType);
                 loggedUser.setBiography((String) request.getAttribute("biography"));
                 userDAO.updateUser(loggedUser);
                 viewedUser.setUser(loggedUser);
@@ -434,7 +435,6 @@ public class UserAccessManagement {
                 userDAO.updateUser(viewedUser);
             }
 
-            System.out.println("sadds"+profileId + loggedUser.getUserId() +  request.getAttribute("userType"));
             sessionUserDAO.addUser(loggedUser);
 
             System.out.println("Nuovo url: "+ loggedUser.getUrlProfilePicture());

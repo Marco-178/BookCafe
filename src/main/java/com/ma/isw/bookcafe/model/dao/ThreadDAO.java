@@ -1,6 +1,7 @@
 package com.ma.isw.bookcafe.model.dao;
 
 import com.ma.isw.bookcafe.model.dao.exception.NoThreadFoundException;
+import com.ma.isw.bookcafe.model.mo.Message;
 import com.ma.isw.bookcafe.model.mo.Thread;
 
 import java.util.List;
@@ -17,4 +18,6 @@ public interface ThreadDAO {
     public Thread getThreadById(int threadId) throws NoThreadFoundException;
 
     public List<Thread> getAllThreads(int clubId);
+
+    List<String> getFormattedCreationTimestamps(List<Message> messages);
 }

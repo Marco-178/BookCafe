@@ -140,6 +140,7 @@ public class ReviewManagement {
             UserDAO userDAO = daoFactory.getUserDAO();
             List<User> reviewers = userDAO.getReviewers(reviews);
 
+            int loggedUserReviewId = ReviewManagement.checkLoggedUserReview(reviews, loggedUser);
             double meanReviews = calcReviewsMean(reviews);
 
             daoFactory.commitTransaction();
@@ -148,7 +149,7 @@ public class ReviewManagement {
             request.setAttribute("loggedUser", loggedUser);
             request.setAttribute("book", book);
             request.setAttribute("reviews", reviews);
-            request.setAttribute("loggedUserReviewId", -1);
+            request.setAttribute("loggedUserReviewId", loggedUserReviewId);
             if(meanReviews != 0){
                 request.setAttribute("meanReviews", meanReviews);
             }

@@ -2,6 +2,7 @@ package com.ma.isw.bookcafe.model.dao;
 
 import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
 import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
+import com.ma.isw.bookcafe.model.mo.Message;
 import com.ma.isw.bookcafe.model.mo.Review;
 import com.ma.isw.bookcafe.model.mo.User;
 import java.util.List;
@@ -31,4 +32,6 @@ public interface UserDAO {
     List<User> getReviewers(List<Review> reviews);
 
     public LocalDateTime updateLastAccess(User user);
+
+    List<User> getChatters(List<Message> messages);
 }

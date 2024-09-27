@@ -1,16 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.ma.isw.bookcafe.model.mo.Book"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <html>
 <head>
     <%@include file="/include/htmlHead.inc"%>
     <link rel="stylesheet" href="<%= contextPath %>/css/bookLayout.css?v=<%= timestamp %>" type="text/css" media="screen">
     <script>
-        for(let i = 0; i < 5; i++){
-
-        }
-
         document.addEventListener('DOMContentLoaded', () => {
             document.writeReview.modifyReview.value = -1;
 
@@ -35,8 +32,10 @@
             document.writeReview.submit();
         }
 
-        function modifyReview(selectedReviewId){
+        function modifyReview(selectedReviewId, reviewText){
             document.writeReview.modifyReview.value = selectedReviewId;
+            document.getElementById("reviewText").value = reviewText;
+            console.log("prova: ", reviewText);
         }
 
         function removeReview(selectedReviewId){
@@ -161,12 +160,14 @@
                                     <div>da <span class="author">${reviewer.username}</span></div>
                                     <hr>
                                     <p> ${review.testo} </p>
-                                    <c:if test="${loggedOn && loggedUserReviewId == review.reviewId}">
                                         <div class="right">
-                                            <button class="edit-review-button open-button" onclick="location.href='javascript:modifyReview(${review.reviewId});'"> Modifica </button>
-                                            <button class="delete-review-button" onclick="location.href='javascript:removeReview(${review.reviewId});'"> Elimina </button>
+                                            <c:if test="${loggedOn && loggedUserReviewId == review.reviewId}">
+                                                <button class="edit-review-button open-button" onclick="modifyReview(${review.reviewId}, '${fn:escapeXml(review.testo)}');"> Modifica </button>
+                                            </c:if>
+                                            <c:if test="${loggedOn && (loggedUserReviewId == review.reviewId || loggedUser.userType == 'admin' || loggedUser.userType == 'moderator')}">
+                                                <button class="delete-review-button" onclick="location.href='javascript:removeReview(${review.reviewId});'"> Elimina </button>
+                                            </c:if>
                                         </div>
-                                    </c:if>
                                 </div>
                             </article>
                         </c:forEach>

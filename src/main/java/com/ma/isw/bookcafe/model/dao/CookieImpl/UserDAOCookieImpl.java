@@ -1,5 +1,6 @@
 package com.ma.isw.bookcafe.model.dao.CookieImpl;
 
+import com.ma.isw.bookcafe.model.mo.Message;
 import com.ma.isw.bookcafe.model.mo.Review;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
@@ -133,6 +134,11 @@ public class UserDAOCookieImpl implements UserDAO {
 
     @Override
     public LocalDateTime updateLastAccess(User user) {throw new UnsupportedOperationException("Not supported.");}
+
+    @Override
+    public List<User> getChatters(List<Message> messages) {
+        throw new UnsupportedOperationException("Not supported.");
+    }
 
     private String encode(User loggedUser) {
 

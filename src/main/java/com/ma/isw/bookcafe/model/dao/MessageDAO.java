@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Date;
 
 public interface MessageDAO {
-    public void addMessage(int messageId, Date creationTimestamp, String content, int userId, int threadId);
+    public void addMessage(Message message);
 
     public void updateMessage(Message message);
 

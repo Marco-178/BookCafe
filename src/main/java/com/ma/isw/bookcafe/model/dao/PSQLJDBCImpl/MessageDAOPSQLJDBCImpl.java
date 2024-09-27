@@ -17,9 +17,38 @@ public class MessageDAOPSQLJDBCImpl implements MessageDAO {
     public MessageDAOPSQLJDBCImpl(Connection conn) { this.conn = conn; }
 
     @Override
-    public void addMessage(int messageId, Date creationTimestamp, String content, int userId, int threadId) {
+    public void addMessage(Message message) {
+        PreparedStatement ps = null;
 
+        try {
+            String sql = "INSERT INTO user_message "
+                    + "(creation_timestamp, contenuto, thread_id, user_id, deleted) "
+                    + "VALUES (?,?,?,?,?) "
+                    + "RETURNING message_id";
+
+            ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            int i = 1;
+            ps.setObject(i++, message.getCreationTimestamp());
+            ps.setString(i++, message.getContent());
+            ps.setInt(i++, message.getThreadId());
+            ps.setInt(i++, message.getUserId());
+            ps.setBoolean(i++, message.isDeleted());
+
+            int affectedRows = ps.executeUpdate();
+
+            if (affectedRows > 0) {
+                try (ResultSet rs = ps.getGeneratedKeys()) {
+                    if (rs.next()) {
+                        int messageId = rs.getInt(1);
+                        message.setMessageId(messageId);
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException("Errore durante l'inserimento del messaggio nel database", e);
+        }
     }
+
 
     @Override
     public void updateMessage(Message message) {
@@ -28,7 +57,22 @@ public class MessageDAOPSQLJDBCImpl implements MessageDAO {
 
     @Override
     public void deleteMessage(int messageId) {
+        PreparedStatement ps = null;
 
+        try {
+            String sql = "DELETE FROM user_message WHERE message_id = ?";
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, messageId);
+
+            int affectedRows = ps.executeUpdate();
+
+            if (affectedRows == 0) {
+                throw new RuntimeException("Nessun messaggio trovato con l'ID: " + messageId);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException("Errore durante l'eliminazione del messaggio dal database", e);
+        }
     }
 
     @Override

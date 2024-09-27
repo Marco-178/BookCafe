@@ -9,9 +9,12 @@ import java.time.LocalDateTime;
 
 import com.ma.isw.bookcafe.model.dao.exception.DuplicatedUsernameException;
 import com.ma.isw.bookcafe.model.dao.exception.InvalidBirthdateException;
+import com.ma.isw.bookcafe.model.mo.Message;
 import com.ma.isw.bookcafe.model.mo.Review;
 import com.ma.isw.bookcafe.model.mo.User;
 import com.ma.isw.bookcafe.model.dao.UserDAO;
+
+import static com.ma.isw.bookcafe.controller.UserAccessManagement.formatLocalDateTime;
 
 
 public class UserDAOPSQLJDBCImpl implements UserDAO{
@@ -308,6 +311,34 @@ public class UserDAOPSQLJDBCImpl implements UserDAO{
             throw new RuntimeException(e);
         }
         return LocalDateTime.now();
+    }
+
+    @Override
+    public List<User> getChatters(List<Message> messages) {
+        List<User> users = getAllUsers();
+        Map<Integer, User> userMap = new HashMap<>();
+
+        // Usando una HashMap la complessità computazionale si riduce a O(n)
+        for (User user : users) {
+            userMap.put(user.getUserId(), user);
+        }
+
+        List<User> chatters = new ArrayList<>();
+        // Siccome a ciclare una lista si usa un Iterator, il modo più sicuro per rimuovere elementi dalla lista ed evitare errori di concorrenza (tra il ciclo e la rimozione) è usare l'Iterator
+        Iterator<Message> messageIterator = messages.iterator();
+
+        while (messageIterator.hasNext()) {
+            Message message = messageIterator.next();
+            User user = userMap.get(message.getUserId());
+
+            if (user != null && !user.isBanned()) {
+                chatters.add(user);
+            } else if (user != null && user.isBanned()) {
+                messageIterator.remove();
+            }
+        }
+
+        return chatters;
     }
 
     public static User read(ResultSet rs){
